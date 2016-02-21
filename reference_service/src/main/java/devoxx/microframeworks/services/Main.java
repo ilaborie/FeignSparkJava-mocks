@@ -8,7 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        externalStaticFileLocation("reference_service/src/main/public");
+        // Will serve all static file are under "/public" in classpath if the route isn't consumed by others routes.
+        // When using Maven, the "/public" folder is assumed to be in "/main/resources"
+        staticFileLocation("/public");
         port(8090);
 
         ReferenceRoute referenceRoute = new ReferenceRoute();

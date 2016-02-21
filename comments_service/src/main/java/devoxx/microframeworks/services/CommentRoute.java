@@ -35,7 +35,9 @@ public class CommentRoute {
         String wid = request.params(":wid");
         Comment comment = parseComment(request.bodyAsBytes());
         LOG.info("handleCreate(" + wid + ") with body=" + GSON.toJson(comment));
-        return GSON.toJson(dao.create(wid, comment));
+        String created = GSON.toJson(dao.create(wid, comment));
+        response.status(201); // 201 Created
+        return created;
     }
 
     private Comment parseComment(byte[] bytes) {
