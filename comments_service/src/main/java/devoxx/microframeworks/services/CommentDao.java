@@ -68,8 +68,7 @@ public class CommentDao {
 
         List<Comment> commentsByWid = allComments.get(wid);
         if (commentsByWid == null) {
-            commentsByWid = new ArrayList<>();
-            allComments.put(wid, commentsByWid);
+            throw new NoSuchElementException("Wine not found");
         }
         commentsByWid.add(comment);
         return comment;

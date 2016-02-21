@@ -55,7 +55,7 @@ public class StockDao {
 
     public void order(String wid, String qty) {
         Integer stock = allStocks.get(wid);
-        if (qty == null) {
+        if (stock == null) {
             throw new NoSuchElementException("Wine not found");
         } else {
             int q = Integer.parseInt(qty);
