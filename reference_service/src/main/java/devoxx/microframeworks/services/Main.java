@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        externalStaticFileLocation("reference_service/src/main/public");
         port(8090);
 
         ReferenceRoute referenceRoute = new ReferenceRoute();
