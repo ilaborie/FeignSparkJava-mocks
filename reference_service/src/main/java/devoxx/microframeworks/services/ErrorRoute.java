@@ -6,11 +6,12 @@ import spark.Response;
 public class ErrorRoute {
 
     public void handleNotFound(Exception exception, Request request, Response response) {
-        prepareResponse(response, 404, "Not Found", exception);
+        prepareResponse(response, 404, "Not Found", exception); // FIXME use HttpServletResponse.SC_NOT_FOUND
+
     }
 
     public void handleBadRequest(Exception exception, Request request, Response response) {
-        prepareResponse(response, 400, "Bad Request", exception);
+        prepareResponse(response, 400, "Bad Request", exception); // FIXME use HttpServletResponse.SC_BAD_REQUEST
     }
 
     private void prepareResponse(Response response, int statusCode, String defaultMsg, Exception exception) {

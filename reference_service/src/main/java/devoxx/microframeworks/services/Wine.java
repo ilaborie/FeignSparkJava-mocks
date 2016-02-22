@@ -1,5 +1,6 @@
 package devoxx.microframeworks.services;
 
+// FIXME clean data: private field, use List<T> when useful, good type
 public class Wine {
 
     String id;
@@ -15,7 +16,7 @@ public class Wine {
     String alcool;
     String contenance;
 
-    String image;
+    String image; // FIXME IL: remove prefix 'http://localhost:8090' in image (json)
     String conservation;
     String aBoireAPartirDe;
     String garderJusquA;

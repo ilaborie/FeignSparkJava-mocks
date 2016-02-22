@@ -15,15 +15,15 @@ public class ReferenceRoute {
 
     public Object handleFindById(Request request, Response response) {
         String id = request.params(":wid");
-        LOG.info("handleFindById(" + id + ")");
+        LOG.info("handleFindById(" + id + ")"); // FIXME LOG.info("handleFindById({})", id);
         return GSON.toJson(dao.findById(id));
     }
 
     public Object handleSearch(Request request, Response response) {
-
         String q = request.queryParams("q");
+        // FIXME Pas de IF, utilsons un Optional, c'est plus sexy
         if (q != null) {
-            LOG.info("findByCriteria(" + q + ")");
+            LOG.info("findByCriteria(" + q + ")"); // FIXME LOG.info("findByCriteria({})", d);
             return GSON.toJson(dao.findByCriteria(q));
         } else {
             LOG.info("findAll()");

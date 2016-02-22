@@ -25,6 +25,9 @@
             <version>2.6.1</version>
         </dependency>
 
+        <!-- FIXME slf4j, logback(runtime) -->
+
+        <!-- FIXME NOT used -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
