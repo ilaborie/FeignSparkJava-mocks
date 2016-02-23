@@ -17,9 +17,10 @@
     };
 
     /** @ngInject */
-    function NavbarController() {
-     // var vm = this;
-
+    function NavbarController(loginSrv) {
+      var vm = this;
+      vm.user = loginSrv.getUser();
+      vm.signOut = loginSrv.logout;
     }
   }
 })();

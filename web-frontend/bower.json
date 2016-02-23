@@ -7,7 +7,8 @@
     "angular-messages": "~1.5.0",
     "angular-ui-router": "~0.2.18",
     "angular-toastr": "~1.5.0",
-    "bootstrap": "v4.0.0-alpha.2"
+    "bootstrap": "v4.0.0-alpha.2",
+    "font-awesome": "fontawesome#^4.5.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.0"
@@ -17,7 +18,13 @@
   },
   "overrides": {
     "bootstrap": {
-      "main": "dist/boostrap.min.css"
+      "main": "dist/css/bootstrap.min.css"
+    },
+    "font-awesome":{
+      "main" : [
+        "css/font-awesome.min.css",
+        "fonts/*"
+      ]
     }
   }
 }
