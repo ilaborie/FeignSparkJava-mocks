@@ -21,14 +21,14 @@ public class StockRoute {
 
     public Object handleFindById(Request request, Response response) {
         String wid = request.params(":wid");
-        LOG.info("handleFindById(" + wid + ")");
+        LOG.info("handleFindById({})", wid);
         return GSON.toJson(dao.findById(wid));
     }
 
     public Object handleOrder(Request request, Response response) {
         String wid = request.params(":wid");
         String qty = request.queryParams("qty");
-        LOG.info("handleOrder(" + wid + "," + qty + ")");
+        LOG.info("handleOrder({},{})", wid, qty);
         dao.order(wid, qty);
         return GSON.toJson("Order accepted");
     }
