@@ -6,10 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.util.*;
 
 public class CommentDao {
@@ -24,13 +21,13 @@ public class CommentDao {
     }
 
     static {
-        try {
+        try (Reader reader = new InputStreamReader(CommentDao.class.getResourceAsStream("/comments.json"))) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-            Reader reader = new BufferedReader(new FileReader("comments_service/src/main/resources/comments.json"));
+
             allComments = GSON.fromJson(reader, new TypeToken<Map<String, List<Comment>>>() {
             }.getType());
 
-            LOG.info("Parse wines comments database : " + allComments.keySet().size() + " wines comments read.");
+            LOG.info("Parse wines comments database : {} wines comments read.", allComments.keySet().size());
         } catch (IOException e) {
             LOG.error(e.getMessage(), e);
         }

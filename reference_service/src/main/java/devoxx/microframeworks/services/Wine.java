@@ -1,6 +1,5 @@
 package devoxx.microframeworks.services;
 
-// FIXME clean data: private field, use List<T> when useful, good type
 public class Wine {
 
     String id;

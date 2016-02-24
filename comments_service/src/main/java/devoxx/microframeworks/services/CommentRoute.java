@@ -20,21 +20,21 @@ public class CommentRoute {
 
     public Object handleFindAll(Request request, Response response) {
         String wid = request.params(":wid");
-        LOG.info("handleFindAll(" + wid + ")");
+        LOG.info("handleFindAll({})", wid);
         return GSON.toJson(dao.findAll(wid));
     }
 
     public Object handleFindById(Request request, Response response) {
         String wid = request.params(":wid");
         String id = request.params(":id");
-        LOG.info("handleFindById(" + wid + "," + id + ")");
+        LOG.info("handleFindById({},{})", wid, id);
         return GSON.toJson(dao.findById(wid, id));
     }
 
     public Object handleCreate(Request request, Response response) {
         String wid = request.params(":wid");
         Comment comment = parseComment(request.bodyAsBytes());
-        LOG.info("handleCreate(" + wid + ") with body=" + GSON.toJson(comment));
+        LOG.info("handleCreate({}) with body={}", wid, GSON.toJson(comment));
         String created = GSON.toJson(dao.create(wid, comment));
         response.status(201); // 201 Created
         return created;

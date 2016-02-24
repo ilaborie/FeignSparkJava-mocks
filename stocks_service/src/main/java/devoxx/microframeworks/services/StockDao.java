@@ -6,10 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
@@ -25,15 +22,16 @@ public class StockDao {
     }
 
     static {
-        try {
+        try (Reader reader = new InputStreamReader(StockDao.class.getResourceAsStream("/stocks.json"))) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-            Reader reader = new BufferedReader(new FileReader("stocks_service/src/main/resources/stocks.json"));
+
             allStocks = GSON.fromJson(reader, new TypeToken<Map<String, Integer>>() {
             }.getType());
 
-            LOG.info("Parse wines stocks database : " + allStocks.keySet().size() + " wines stocks read.");
+            LOG.info("Parse wines stocks database :{} wines stocks read.", allStocks.keySet().size());
         } catch (IOException e) {
             LOG.error(e.getMessage(), e);
+            System.exit(1);
         }
     }
 
