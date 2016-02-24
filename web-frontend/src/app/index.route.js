@@ -11,7 +11,8 @@
     // Login
       .state('login', {
         url: '/login',
-        templateUrl: 'app/routes/login/login.html'
+        templateUrl: 'app/routes/login/login.html',
+        controller: 'LoginController as vm'
       })
       // Main
       .state('main', {
@@ -24,7 +25,10 @@
         url: '/cellar',
         parent: 'main',
         views: {
-          'body@main': {templateUrl: 'app/routes/main/cellar/cellar.html'}
+          'body@main': {
+            controller: 'CellarController as vm',
+            templateUrl: 'app/routes/main/cellar/cellar.html'
+          }
         }
       })
       // Catalog List

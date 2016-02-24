@@ -1,4 +1,45 @@
-<div class="container">
-  <h1>Login</h1>
-  <button ui-sref="cellar">Login</button>
+<div class="login">
+
+  <form name="loginForm" ng-submit="vm.login()" novalidate>
+
+    <div class="logo">
+      <img src="assets/images/login.jpg" alt="Wine Glass">
+    </div>
+
+    <p class="error bg-danger" ng-if="vm.error">{{vm.error}}</p>
+
+    <div class="form-group" ng-class="{'has-danger': loginForm.email.$invalid && loginForm.email.$dirty}">
+      <span class="input-group">
+        <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+        <input ng-model="vm.user.email" name="email" type="email" class="form-control" placeholder="Enter email"
+               required>
+      </span>
+      <small class="text-danger" ng-if="loginForm.email.$error.required && loginForm.email.$dirty">
+        Required !
+      </small>
+      <small class="text-danger" ng-if="loginForm.email.$error.email && loginForm.email.$dirty">
+        Invalid email !
+      </small>
+    </div>
+
+    <div class="form-group" ng-class="{'has-danger': loginForm.pwd.$invalid && loginForm.pwd.$dirty}">
+      <span class="input-group">
+        <span class="input-group-addon"><i class="fa fa-user-secret"></i></span>
+        <input ng-model="vm.user.password" name="pwd" type="password" class="form-control" placeholder="Password"
+               required>
+      </span>
+      <small class="text-danger" ng-if="loginForm.pwd.$error.required && loginForm.pwd.$dirty">
+        Required !
+      </small>
+    </div>
+
+    <div class="actions">
+      <button type="submit" class="btn btn-primary" ng-disabled="!loginForm.$valid">
+        <i class="fa fa-sign-in"></i>
+        Login
+      </button>
+    </div>
+
+  </form>
+
 </div>

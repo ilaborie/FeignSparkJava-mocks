@@ -1,0 +1,42 @@
+.cellar {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    h1 {
+      display: inline;
+      margin-right: 1em;
+    }
+    form {
+      display: inline;
+      .input-group  {
+        max-width: 33%;
+
+        :first-child {
+          border-bottom-left-radius: 1em;
+          border-top-left-radius: 1em;
+        }
+        .input-group:last-child {
+          border-bottom-right-radius: 1em;
+          border-top-right-radius: 1em;
+        }
+      }
+    }
+  }
+
+  .wines {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+
+    .wine {
+      display: inline-block;
+      flex: 0 1 auto;
+      min-width: 12rem;
+      max-width: 16rem;
+      margin: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "wine": {
+      "id": "d0b2f834-4352-40e5-b886-2f8c8a42d68d",
+      "produit": "LA COUDRAYE 2014 - DOMAINE YANNICK AMIRAULT",
+      "millesime": "2014",
+      "appellation": "Bourgueil AOC",
+      "couleur": "Vin Rouge",
+      "region": "Loire",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "100% Cabernet-franc",
+      "type": "Vin",
+      "alcool": "13% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/le-grand-clos-domaine-yannick-amirault.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2015",
+      "garderJusquA": "2018",
+      "auNez": "Arômes de grenade et cranberry légèrement épicés",
+      "enBouche": "Bouche croquante et gourmande",
+      "aOeil": "Robe vive et lumineuse",
+      "service": "Ouvrir 1h avant le service",
+      "temperatureDeService": "14-16°C",
+      "accordsRecommandes": "Civet de biche, daube de bœuf, ou un carré d'agneau",
+      "accordsMetsVin": "Viande rouge, Gibier"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 4,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "a59d3c6b-75a7-465d-9c39-51cc8a660e4e",
+      "produit": "EQUILIBRE 2012 - VILLA SYMPOSIA",
+      "millesime": "2012",
+      "appellation": "Coteaux du Languedoc AOC",
+      "couleur": "Vin Rouge",
+      "region": "Languedoc",
+      "pays": "France",
+      "bio": "Bio Ecocert",
+      "cepageDominant": "60% Syrah, 15% Carignan, 15% Cinsault, 7% Grenache noir, 3% Mourvèdre",
+      "type": "Vin",
+      "alcool": "14% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/equilibre-villa-symposia.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2014",
+      "garderJusquA": "2024",
+      "auNez": "Arômes de fruits noirs et de baies sauvages alliées à des notes de fraise.",
+      "enBouche": "Bouche ample et généreuse, sur un fruit juteux. Équilibre parfait entre fraîcheur, volume et fruité intense. Finale d'une grande persistance.",
+      "aOeil": "Robe rubis profonde.",
+      "service": "Ouvrir 30 min avant le service",
+      "temperatureDeService": "16-18°C",
+      "accordsRecommandes": "Daube de bœuf, volaille fermière...",
+      "accordsMetsVin": "Viande blanche, Volaille, Gibier, Champignon, Fromage"
+    },
+    "favorite": true,
+    "quantity": {
+      "value": 10,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "625d0dad-93e0-47c5-8a71-e4a58fbbf601",
+      "produit": "PREMIERE BLANC 2014 - SAINT ANDRE DE FIGUIERE",
+      "millesime": "2014",
+      "appellation": "Côtes de Provence AOC",
+      "couleur": "Vin Blanc",
+      "region": "Provence",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "75% Rolle, 25% Sémillon",
+      "type": "Vin",
+      "alcool": "12,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/premiere-blanc-saint-andre-de-figuiere.jpg",
+      "conservation": "A boire dans les 2 ans",
+      "auNez": "Notes de fleurs et fruits blancs, de fenouil",
+      "enBouche": "Bouche franche et onctueuse, offrant un bel équilibre et une finale nette et fraîche",
+      "aOeil": "Robe blonde",
+      "service": "En bouteille",
+      "temperatureDeService": "8-10°C",
+      "accordsRecommandes": "Salades estivales, cuisine méditerranéenne",
+      "accordsMetsVin": "Poisson, Coquillage & Crustacé"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 8,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "766614fc-fc91-4d3a-8d29-8f664f7e755d",
+      "produit": "EMOTION  2013 - MAS DE L ECRITURE",
+      "millesime": "2013",
+      "appellation": "Terrasses du Larzac Coteaux du Languedoc AOC",
+      "couleur": "Vin Rouge",
+      "region": "Languedoc",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "25% Syrah, 25% Grenache, 25% Cinsault, 25% Carignan",
+      "type": "Vin",
+      "alcool": "15,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/emotion-mas-de-l-ecriture.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2015",
+      "garderJusquA": "2020",
+      "auNez": "Nez expressif de fruits rouges bien mûrs accompagné de fines notes de garrigue.",
+      "enBouche": "Bouche gourmande et croquante, un bel équilibre marqué par la fraîcheur.",
+      "aOeil": "Belle robe grenat au reflet violine.",
+      "service": "Ouvrir 30 min avant le service",
+      "temperatureDeService": "14-16°C",
+      "accordsRecommandes": "Rôti de veau, pata negra",
+      "accordsMetsVin": "Charcuterie, Viande rouge, Viande blanche, Fromage"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 2,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "d9e3b656-8e69-46c3-b013-cbbd326286ec",
+      "produit": "BLANC VACQUEYRAS 2014 - SEIGNEUR DE FONTIMPLE",
+      "millesime": "2014",
+      "appellation": "Vacqueyras AOC",
+      "couleur": "Vin Blanc",
+      "region": "Rhône",
+      "pays": "France",
+      "bio": "Bio Vignerons en developpement durable",
+      "cepageDominant": "Viognier, Grenache blanc, Bourboulenc, Clairette, Roussanne, Marsanne",
+      "type": "Vin",
+      "alcool": "12,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/vacqueyras-blanc-seigneur-de-fontimple.jpg",
+      "conservation": "A boire dans les 2 ans",
+      "auNez": "Nez intense marqué par les fleurs blanches délicates évoluant sur des notes de fruits exotiques.",
+      "enBouche": "Bouche ronde avec de la matière, beaucoup de présence et de caractère pour ce vin racé.",
+      "aOeil": "Robe jaune dorée.",
+      "service": "En bouteille",
+      "temperatureDeService": "8-12°C",
+      "accordsRecommandes": "Poisson au beurre blanc, truite meunière, crustacés...",
+      "accordsMetsVin": "Apéritif, Poisson, Coquillage & Crustacé"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 2,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "69b33680-15c2-445b-8938-c77185bba340",
+      "produit": "LES HAUTS DE CASTELLAS VACQUEYRAS 2013",
+      "millesime": "2013",
+      "appellation": "Vacqueyras AOC",
+      "couleur": "Vin Rouge",
+      "region": "Rhône",
+      "pays": "France",
+      "bio": "Bio Vignerons en developpement durable",
+      "cepageDominant": "Grenache, syrah, Mourvèdre,",
+      "type": "Vin",
+      "alcool": "14% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/vacqueyras-rouge-hauts-castellas.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2015",
+      "garderJusquA": "2022",
+      "auNez": "Nez élégant sur des notes de cerises noires, de figues et de caramel",
+      "enBouche": "Puissante et bien structurée avec beaucoup de rondeur sur des tanins fondus et racés. Finale sur des notes de torréfaction/vanillées.",
+      "aOeil": "Robe Rouge foncée",
+      "service": "Passer en carafe",
+      "temperatureDeService": "16-18°C",
+      "accordsRecommandes": "lapin de garenne aux échalotes et au thym, un magret de canard aux girolles, un rôti de veau aux cèpes ou une sélection de fromages affinés.",
+      "accordsMetsVin": "Viande blanche, Volaille, Gibier, Fromage"
+    },
+    "favorite": true,
+    "quantity": {
+      "value": 8,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "0281ee8e-7068-4651-8857-4b6ade6232a3",
+      "produit": "LA SOURCE 2014 - DOMAINE YANNICK AMIRAULT",
+      "millesime": "2014",
+      "appellation": "St Nicolas de Bourgueil AOC",
+      "couleur": "Vin Rouge",
+      "region": "Loire",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "100% Cabernet-franc",
+      "type": "Vin",
+      "alcool": "13% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/la-source-domaine-yannick-amirault.jpg",
+      "conservation": "A boire dans les 2 ans",
+      "auNez": "Nez sur les fruits noirs.",
+      "enBouche": "Bouche très expressive, juteuse, légèrement acide, abondance de fruits noirs.",
+      "aOeil": "Robe pourpre.",
+      "service": "En bouteille",
+      "temperatureDeService": "14-16°C"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 8,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "02bc1646-0640-4a5a-a2fc-a15a67350e25",
+      "produit": "LES CHAMPAUVINS 2013 - DOMAINE GRAND VENEUR",
+      "millesime": "2013",
+      "appellation": "Côtes du Rhône AOC",
+      "couleur": "Vin Rouge",
+      "region": "Rhône",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "70% Grenache noir, 20% Syrah, 10% Mourvèdre",
+      "type": "Vin",
+      "alcool": "14,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/les-champauvins-domaine-grand-veneur.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2014",
+      "garderJusquA": "2020",
+      "auNez": "Arômes de fruits noirs, de garrigue et d'épices",
+      "enBouche": "Bouche ample et suave avec des tanins fondus",
+      "aOeil": "Robe rouge grenat intense",
+      "service": "Ouvrir 1h avant le service",
+      "temperatureDeService": "16-17°C",
+      "accordsMetsVin": "Charcuterie, Viande rouge, Viande blanche, Fromage"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 7,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "7ecabdc3-946c-40ba-92f2-783a1aa6e3ed",
+      "produit": "GEWURZTRAMINER 2013 - EVIDENCE - GUSTAVE LORENTZ",
+      "millesime": "2013",
+      "appellation": "Alsace AOC",
+      "couleur": "Vin Blanc",
+      "region": "Alsace",
+      "pays": "France",
+      "bio": "Bio AB",
+      "cepageDominant": "100% Gewurztraminer",
+      "type": "Vin",
+      "alcool": "13,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/gewurztraminer-evidence-gustave-lorentz.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2014",
+      "garderJusquA": "2018",
+      "service": "En bouteille",
+      "temperatureDeService": "12°C",
+      "accordsMetsVin": "Apéritif, Foie gras, Cuisine du monde, Fromage"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 9,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "e2c3d7cb-a357-47f5-b100-501457e3d242",
+      "produit": "PERLE DE MARGUI 2014 - CHATEAU MARGÜI",
+      "millesime": "2014",
+      "appellation": "AOP Coteaux Varois en Provence",
+      "couleur": "Vin Rosé",
+      "region": "Provence",
+      "pays": "France",
+      "bio": "Eurofeuille",
+      "cepageDominant": "45% Cinsault, 35% Grenache, 20% Vermentino",
+      "type": "Vin",
+      "alcool": "13,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/perle-de-margui-chateau-margui.jpg",
+      "conservation": "A boire dans les 2 ans",
+      "auNez": "Arômes de fruits confits et de pêche",
+      "enBouche": "Vin vif, minéral et très frais",
+      "aOeil": "Robe claire aux reflets gris clairs",
+      "temperatureDeService": "8-12°C",
+      "accordsRecommandes": "Tapas, tartares aux algues bio, ceviche de loup aux agrumes, asperges de pays.",
+      "accordsMetsVin": "Entrée, Coquillage & Crustacé"
+    },
+    "favorite": true,
+    "quantity": {
+      "value": 10,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "edb7d7ab-dbc3-4de5-bc9d-57cdd0481049",
+      "produit": "VIOGNIER - DOMAINE DES GRANGES DE MIRABEL 2014 - MICHEL CHAPOUTIER",
+      "millesime": "2014",
+      "appellation": "Coteaux de l'Ardèche VDP",
+      "couleur": "Vin Blanc",
+      "region": "Rhône",
+      "pays": "France",
+      "bio": "Bio Ecocert",
+      "cepageDominant": "100% Viognier",
+      "type": "Vin",
+      "alcool": "14% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/domaine-des-granges-de-mirabel-michel-chapoutier.jpg",
+      "conservation": "A boire dans les 2 ans",
+      "auNez": "Arômes d'abricot, de poire et de marmelade d'orange",
+      "enBouche": "Bouche ronde et fraîche",
+      "aOeil": "Robe jaune-vert",
+      "temperatureDeService": "12°C",
+      "accordsRecommandes": "Cuisine asiatique sucrée/salée",
+      "accordsMetsVin": "Apéritif, Entrée, Cuisine du monde, Dessert fruité"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 4,
+      "unit": "Btls"
+    }
+  },
+  {
+    "wine": {
+      "id": "c42ce751-3517-40ad-b45e-b758dd2547ae",
+      "produit": "BLANC CROZES-HERMITAGE 2014 - CAVE DE TAIN",
+      "millesime": "2014",
+      "appellation": "Crozes-Hermitage AOC",
+      "couleur": "Vin Blanc",
+      "region": "Rhône",
+      "pays": "France",
+      "bio": "Bio Vignerons en developpement durable",
+      "cepageDominant": "100% Marsanne",
+      "type": "Vin",
+      "alcool": "12,5% vol",
+      "contenance": "0,75 L",
+      "image": "http://localhost:8090/images/crozes-hermitage-blanc-cave-de-tain.jpg",
+      "conservation": "A boire et à garder",
+      "aBoireAPartirDe": "2015",
+      "garderJusquA": "2018",
+      "auNez": "Nez intense d’agrumes et de pamplemousse mêlés de fruits exotiques.",
+      "enBouche": "Bouche avec des notes d’amandes amères, d’agrumes et une finale citronnée.",
+      "aOeil": "Robe d’un jaune très pâle avec des reflets verts.",
+      "service": "Ouvrir 30 min avant le service",
+      "temperatureDeService": "10-12°C",
+      "accordsRecommandes": "lotte, thon blanc, le bar en sauces légèrement crémée et citronnée",
+      "accordsMetsVin": "Apéritif, Poisson, Coquillage & Crustacé"
+    },
+    "favorite": false,
+    "quantity": {
+      "value": 4,
+      "unit": "Btls"
+    }
+  }
+]

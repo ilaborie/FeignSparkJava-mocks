@@ -6,17 +6,19 @@
     .service('loginSrv', LoginService);
 
   /** @ngInject */
-  function LoginService($http, $state, toastr) {
+  function LoginService($http, $state) {
     var storage = localStorage;
 
-    this.login = function (email, password) {
-      $http.post('/login', {email: email, password: password})
+    this.login = function (user) {
+      //return $http.post('login', user) // FIXME
+      return $http.get('assets/mock/login.json', user) // FIXME
         .then(function (response) {
-          storage.setItem("user", angular.toJson({email: email}));
-          return response.data;
-        })
-        .catch(function (error) {
-          toastr.error('Oops !', angular.toJson(error.data, true));
+          var result = {
+            email: user.email,
+            token: response.data
+          };
+          storage.setItem("user", angular.toJson(result));
+          return result;
         });
     };
 

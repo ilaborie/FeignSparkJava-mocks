@@ -1,0 +1,34 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form[name=loginForm] {
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: @bgWhite;
+    height: auto;
+    box-shadow: 1rem 1rem 4rem fade(@bgBlack, 50%);
+
+    .logo {
+      margin: 1rem;
+      text-align: center;
+      img {
+        border-radius: 1rem;
+      }
+    }
+    .error {
+      padding: .25em;
+      border-radius: .25rem;
+    }
+
+    .input-group {
+      max-width: 33vw;
+    }
+
+  }
+
+}
+

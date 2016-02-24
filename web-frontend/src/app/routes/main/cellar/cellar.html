@@ -1,3 +1,32 @@
-<div class="container">
-  <h1>Cart</h1>
+<div class="cellar">
+
+  <header>
+    <h1>My WineCellar</h1>
+    <form class="form-inline">
+      <div class="form-group">
+        <span class="input-group">
+          <input ng-model="vm.search.wine" type="text" ng-class="form-control">
+          <span class="input-group-addon"><i class="fa fa-search"></i></span>
+        </span>
+      </div>
+    </form>
+  </header>
+
+  <div class="wines ">
+
+    <div class="card wine" ng-repeat="stock in vm.cellar track by $index">
+      <div class="card-header">
+        {{stock.wine.produit}}
+      </div>
+      <div class="card-block">
+
+        <p class="card-text">{{stock.wine.accordsMetsVin}}</p>
+        <a ui-sref="wine({wid: stock.wine.id})" class="btn btn-secondary-outline">Detail</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!--<pre>{{vm | json}}</pre>-->
 </div>
+

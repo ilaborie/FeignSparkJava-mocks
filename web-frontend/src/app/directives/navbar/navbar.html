@@ -1,5 +1,7 @@
-<nav class="navbar navbar-light bg-faded">
-  <a class="navbar-brand" href="#">Wine Cellar</a>
+<nav class="navbar navbar-dark">
+  <a class="navbar-brand" ui-sref="cellar">
+    L?
+  </a>
 
   <div class="container">
     <ul class="nav navbar-nav">
@@ -7,16 +9,16 @@
         <a class="nav-link" ui-sref="cellar">My Cellar</a>
       </li>
       <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link" ui-sref="catalog">Catalog</a>
+        <a class="nav-link" ui-sref="catalog">Wine Catalog</a>
       </li>
-      <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link" ui-sref="wine({wid:123456})">wine</a>
-      </li>
+      <!--<li class="nav-item" ui-sref-active="active">-->
+        <!--<a class="nav-link" ui-sref="wine({wid:123456})">wine</a>-->
+      <!--</li>-->
     </ul>
 
     <ul class="nav navbar-nav pull-xs-right">
       <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link" ui-sref="cart">
+        <a class="nav-link text-success" ui-sref="cart">
           <i class="fa fa-shopping-cart"></i>
           Cart
         </a>
