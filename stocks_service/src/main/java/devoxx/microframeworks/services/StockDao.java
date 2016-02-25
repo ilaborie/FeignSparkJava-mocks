@@ -6,20 +6,19 @@ import com.google.gson.reflect.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.Map;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
-public class StockDao {
+public enum StockDao {
+    INSTANCE;
 
     private static Logger LOG = LoggerFactory.getLogger(StockDao.class);
 
-    private static StockDao instance = new StockDao();
     private static Map<String, Integer> allStocks;
-
-    public static StockDao getInstance() {
-        return instance;
-    }
 
     static {
         try (Reader reader = new InputStreamReader(StockDao.class.getResourceAsStream("/stocks.json"))) {
@@ -35,35 +34,25 @@ public class StockDao {
         }
     }
 
-    private StockDao() {
-    }
-
     public Map<String, Integer> findAll() {
         return allStocks;
     }
 
     public Integer findById(String wid) {
-        Integer qty = allStocks.get(wid);
-        if (qty == null) {
-            throw new NoSuchElementException("Wine not found");
-        } else {
-            return qty;
-        }
+        return Optional.ofNullable(allStocks.get(wid))
+                .orElseThrow(() -> new NoSuchElementException("Wine not found : " + wid));
     }
 
     public void order(String wid, String qty) {
-        Integer stock = allStocks.get(wid);
-        if (stock == null) {
-            throw new NoSuchElementException("Wine not found");
-        } else {
-            int q = Integer.parseInt(qty);
-            if (q < 0) {
-                throw new IllegalArgumentException("Invalid quantity");
-            }
-            if (stock < q) {
-                throw new IllegalArgumentException("Not enough stock");
-            }
-            allStocks.put(wid, stock - q);
+        Integer stock = findById(wid);
+
+        int q = Integer.parseInt(qty);
+        if (q < 0) {
+            throw new IllegalArgumentException("Invalid quantity");
         }
+        if (stock < q) {
+            throw new IllegalArgumentException("Not enough stock");
+        }
+        allStocks.put(wid, stock - q);
     }
 }

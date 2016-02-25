@@ -6,19 +6,17 @@ import com.google.gson.reflect.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.*;
 
-public class CommentDao {
+public enum CommentDao {
+    INSTANCE;
 
     private static Logger LOG = LoggerFactory.getLogger(CommentDao.class);
 
     private static Map<String, List<Comment>> allComments;
-    private static CommentDao instance = new CommentDao();
-
-    public static CommentDao getInstance() {
-        return instance;
-    }
 
     static {
         try (Reader reader = new InputStreamReader(CommentDao.class.getResourceAsStream("/comments.json"))) {
@@ -33,40 +31,20 @@ public class CommentDao {
         }
     }
 
-    private CommentDao() {
-    }
-
     public List<Comment> findAll(String wid) {
-        List<Comment> result = allComments.get(wid);
-        if (result == null) {
-            throw new NoSuchElementException("Wine not found");
-        } else {
-            return result;
-        }
+        return Optional.ofNullable(allComments.get(wid))
+                .orElseThrow(() -> new NoSuchElementException("Wine not found :" + wid));
     }
 
     public Comment findById(String wid, String id) {
-        List<Comment> commentsByWid = allComments.get(wid);
-
-        if (commentsByWid == null) {
-            throw new NoSuchElementException("Wine not found");
-        } else {
-
-            Comment found = commentsByWid.stream().filter(c -> c.getId().equals(id)).findFirst().get();
-            if (found == null) {
-                throw new NoSuchElementException("Comment not found");
-            }
-            return found;
-        }
+        List<Comment> commentsByWid = findAll(wid);
+        return Optional.ofNullable(commentsByWid.stream().filter(c -> c.getId().equals(id)).findFirst().get())
+                .orElseThrow(() -> new NoSuchElementException("Comment not found"));
     }
 
     public Comment create(String wid, Comment comment) {
         comment.setId(UUID.randomUUID().toString());
-
-        List<Comment> commentsByWid = allComments.get(wid);
-        if (commentsByWid == null) {
-            throw new NoSuchElementException("Wine not found");
-        }
+        List<Comment> commentsByWid = findAll(wid);
         commentsByWid.add(comment);
         return comment;
     }

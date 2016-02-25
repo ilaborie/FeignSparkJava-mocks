@@ -11,16 +11,15 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.lang.reflect.Field;
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class WineDao {
+public enum WineDao {
+    INSTANCE;
+
     private static Logger LOG = LoggerFactory.getLogger(WineDao.class);
 
-    private static WineDao instance = new WineDao();
-
     private static Map<String, Wine> allWinesById = new HashMap<>();
-
-    private static List<Field> attributes = new ArrayList<>(Arrays.asList(Wine.class.getDeclaredFields()));
 
     static {
         try (Reader reader = new InputStreamReader(WineDao.class.getResourceAsStream("/wines.json"))) {
@@ -40,19 +39,6 @@ public class WineDao {
     }
 
     /**
-     * Private constructor
-     */
-    private WineDao() {
-    }
-
-    /**
-     * @return Return singleton instance
-     */
-    public static WineDao getInstance() {
-        return instance;
-    }
-
-    /**
      * @return Return all the wines
      */
     public List<Wine> findAll() {
@@ -64,12 +50,8 @@ public class WineDao {
      * @return Return the wine with matching id or throw a NoSuchElementException exception should the id not match any wine.
      */
     public Wine findById(String id) {
-        Wine result = allWinesById.get(id);
-        if (result == null) {
-            throw new NoSuchElementException("Wine not found");
-        } else {
-            return result;
-        }
+        return Optional.ofNullable(allWinesById.get(id))
+                .orElseThrow(() -> new NoSuchElementException("Wine not found: " + id));
     }
 
     /**
@@ -79,8 +61,8 @@ public class WineDao {
      * @param q criteria
      * @return List of all matching wines for a given criteria.
      */
-    public Set<Wine> findByCriteria(String q) {
-        return allWinesById.values().stream().filter(wine -> wineMatch(wine, q)).collect(Collectors.toSet());
+    public List<Wine> findByCriteria(String q) {
+        return allWinesById.values().stream().filter(wine -> wineMatch(wine, q)).collect(Collectors.toList());
     }
 
     /**
@@ -91,19 +73,28 @@ public class WineDao {
      * @return true if at least one field contains the q and false otherwise
      */
     private boolean wineMatch(Wine wine, String q) {
-        for (Field att : attributes) {
-            try {
-                String value = (String) att.get(wine);
-                if (value != null) {
-                    value = value.toLowerCase();
-                    if (value.contains(q.toLowerCase())) {
-                        return true;
-                    }
-                }
-            } catch (IllegalAccessException e) {
-                LOG.warn(e.getMessage(), e);
-            }
+
+        Predicate<String> matcher = str -> str != null && str.toLowerCase().contains(q.toLowerCase());
+
+        return Arrays.stream(Wine.class.getDeclaredFields())
+                .peek(field -> field.setAccessible(true))
+                .map(field -> safeGet(field, wine))
+                .anyMatch(matcher);
+    }
+
+    /**
+     * Safe method in order to be able to use it in lambda
+     *
+     * @param field field used to retrieve the value from the instance
+     * @param wine wine instance
+     * @return String value of the attribute
+     */
+    private String safeGet(final Field field, Wine wine) {
+        try {
+            return (String) field.get(wine);
+        } catch (IllegalAccessException e) {
+            // Should never happen...
+            throw new RuntimeException();
         }
-        return false;
     }
 }

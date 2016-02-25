@@ -16,7 +16,7 @@ public class CommentRoute {
 
     private static Logger LOG = LoggerFactory.getLogger(CommentRoute.class);
     private static Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private CommentDao dao = CommentDao.getInstance();
+    private CommentDao dao = CommentDao.INSTANCE;
 
     public Object handleFindAll(Request request, Response response) {
         String wid = request.params(":wid");
