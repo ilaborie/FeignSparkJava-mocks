@@ -2,32 +2,32 @@ package devoxx.microframeworks.services;
 
 public class Wine {
 
-    String id;
-    String produit;
-    String millesime;
-    String appellation;
-    String couleur;
-    String region;
-    String pays;
-    String bio;
-    String cepageDominant;
-    String type;
-    String alcool;
-    String contenance;
+    private String id;
+    private String produit;
+    private String millesime;
+    private String appellation;
+    private String couleur;
+    private String region;
+    private String pays;
+    private String bio;
+    private String cepageDominant;
+    private String type;
+    private String alcool;
+    private String contenance;
 
-    String image; // FIXME IL: remove prefix 'http://localhost:8090' in image (json)
-    String conservation;
-    String aBoireAPartirDe;
-    String garderJusquA;
+    private String image; // FIXME IL: remove prefix 'http://localhost:8090' in image (json)
+    private String conservation;
+    private String aBoireAPartirDe;
+    private String garderJusquA;
 
-    String auNez;
-    String enBouche;
-    String aOeil;
+    private String auNez;
+    private String enBouche;
+    private String aOeil;
 
-    String service;
-    String temperatureDeService;
-    String accordsRecommandes;
-    String accordsMetsVin;
+    private String service;
+    private String temperatureDeService;
+    private String accordsRecommandes;
+    private String accordsMetsVin;
 
     public String getId() {
         return id;

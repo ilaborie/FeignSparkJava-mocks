@@ -12,7 +12,7 @@ public class StockRoute {
 
     private static Logger LOG = LoggerFactory.getLogger(StockRoute.class);
     private static Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private StockDao dao = StockDao.getInstance();
+    private StockDao dao = StockDao.INSTANCE;
 
     public Object handleFindAll(Request request, Response response) {
         LOG.info("handleFindAll()");

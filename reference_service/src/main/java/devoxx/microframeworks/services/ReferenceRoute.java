@@ -9,7 +9,7 @@ import spark.Response;
 
 public class ReferenceRoute {
 
-    private WineDao dao = WineDao.getInstance();
+    private WineDao dao = WineDao.INSTANCE;
     private static Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static Logger LOG = LoggerFactory.getLogger(ReferenceRoute.class);
 
