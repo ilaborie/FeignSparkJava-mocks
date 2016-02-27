@@ -16,7 +16,8 @@
 
     <div class="card wine" ng-repeat="stock in vm.cellar track by $index">
       <div class="card-header">
-        {{stock.wine.produit}}
+        <span class="appellation">{{stock.wine.appellation}}</span>
+        <span class="millesime">{{stock.wine.millesime}}</span>
       </div>
       <div class="card-block">
 

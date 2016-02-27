@@ -91,7 +91,7 @@ public enum WineDao {
      */
     private String safeGet(final Field field, Wine wine) {
         try {
-            return (String) field.get(wine);
+            return String.valueOf(field.get(wine));
         } catch (IllegalAccessException e) {
             // Should never happen...
             throw new RuntimeException();

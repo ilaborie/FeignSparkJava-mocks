@@ -4,21 +4,20 @@ public class Wine {
 
     private String id;
     private String produit;
-    private String millesime;
+    private int millesime;
     private String appellation;
     private String couleur;
     private String region;
     private String pays;
     private String bio;
     private String cepageDominant;
-    private String type;
     private String alcool;
     private String contenance;
 
-    private String image; // FIXME IL: remove prefix 'http://localhost:8090' in image (json)
+    private String image;
     private String conservation;
-    private String aBoireAPartirDe;
-    private String garderJusquA;
+    private int aBoireAPartirDe;
+    private int garderJusquA;
 
     private String auNez;
     private String enBouche;
@@ -45,11 +44,11 @@ public class Wine {
         this.produit = produit;
     }
 
-    public String getMillesime() {
+    public int getMillesime() {
         return millesime;
     }
 
-    public void setMillesime(String millesime) {
+    public void setMillesime(int millesime) {
         this.millesime = millesime;
     }
 
@@ -101,14 +100,6 @@ public class Wine {
         this.cepageDominant = cepageDominant;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getAlcool() {
         return alcool;
     }
@@ -141,19 +132,19 @@ public class Wine {
         this.conservation = conservation;
     }
 
-    public String getaBoireAPartirDe() {
+    public int getaBoireAPartirDe() {
         return aBoireAPartirDe;
     }
 
-    public void setaBoireAPartirDe(String aBoireAPartirDe) {
+    public void setaBoireAPartirDe(int aBoireAPartirDe) {
         this.aBoireAPartirDe = aBoireAPartirDe;
     }
 
-    public String getGarderJusquA() {
+    public int getGarderJusquA() {
         return garderJusquA;
     }
 
-    public void setGarderJusquA(String garderJusquA) {
+    public void setGarderJusquA(int garderJusquA) {
         this.garderJusquA = garderJusquA;
     }
 

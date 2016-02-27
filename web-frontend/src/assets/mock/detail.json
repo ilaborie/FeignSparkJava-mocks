@@ -1,0 +1,51 @@
+{
+  "wine": {
+    "id": "ad360086-ca1a-4260-862e-6ad56ff14576",
+    "produit": "MORGON LES SYBARITES 2013 - CHATEAU DE PIZAY",
+    "millesime": 2013,
+    "appellation": "Morgon AOC",
+    "couleur": "Vin Rouge",
+    "region": "Beaujolais",
+    "pays": "France",
+    "cepageDominant": "100% Gamay",
+    "alcool": "13% vol",
+    "contenance": "0,75 L",
+    "image": "morgon-les-sybarites-chateau-de-pizay.jpg",
+    "conservation": "A boire et à garder",
+    "aBoireAPartirDe": 2015,
+    "garderJusquA": 2020,
+    "auNez": "Nez complexe sur des notes florales (iris, pivoine, rose, bourgeon de cassis). Nuances de fruits compotés et de vanille.",
+    "enBouche": "Bouche complexe, généreuse et charnue. Tanins ronds, soyeux.",
+    "aOeil": "Robe cerise aux reflets violines.",
+    "temperatureDeService": "16°C",
+    "accordsMetsVin": "Viande rouge, Viande blanche, Gibier, Champignon, Fromage"
+  },
+  "stock": {
+    "stock": 40,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "comments": [
+    {
+      "id": "26af9a3b-c877-4198-881a-7a0a16ec06f1",
+      "author": "Lucie_Laine21",
+      "email": "Sarah_Menard84@hotmail.fr",
+      "date": "2016-02-27T06:05:53.652Z",
+      "message": "Repellendus harum quaerat sed qui impedit officia dicta.\nEst qui quis enim perferendis sed natus rerum non illum.\nReiciendis dolores quasi et dolor voluptatem fuga dolorum beatae veritatis."
+    },
+    {
+      "id": "4ab4db51-79c2-49fe-ae5f-64709aa22c96",
+      "author": "Hugo64",
+      "email": "Zoe16@hotmail.fr",
+      "date": "2016-02-27T17:34:55.015Z",
+      "message": "Aliquam magni nam voluptate ut.\nDeserunt dignissimos ipsum vel accusantium et quia porro sed esse.\nEt rerum eligendi non at dolores facilis velit fugit nobis."
+    },
+    {
+      "id": "4a7ed4fa-ae29-489d-9746-124c7457c241",
+      "author": "Tom29",
+      "email": "Adrien77@hotmail.fr",
+      "date": "2016-02-26T22:24:26.591Z",
+      "message": "Aut culpa necessitatibus quisquam possimus tempore.\nLaudantium tempore autem temporibus illum provident id voluptatem et voluptatem.\nOmnis aut officiis velit explicabo laboriosam fugit magnam non quis."
+    }
+  ]
+}

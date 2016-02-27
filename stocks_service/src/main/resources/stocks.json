@@ -1,407 +1,2022 @@
 {
-  "0617b04b-c156-4f5f-92a8-5d033c75a948": 32,
-  "e6bb071b-8c6a-45a4-aed5-9ab8433a8ab7": 31,
-  "5fbf6be3-c75e-45be-827f-b5559ff72e24": 18,
-  "842b7710-7725-4196-9356-ee78615b7bb6": 20,
-  "f1667d0b-9cf4-4d58-8c1a-bbd9d1f46995": 0,
-  "7181d415-458d-4501-9731-55f24d7ed2df": 24,
-  "d0b2f834-4352-40e5-b886-2f8c8a42d68d": 38,
-  "a59d3c6b-75a7-465d-9c39-51cc8a660e4e": 28,
-  "c8fb55a0-5cd9-49e9-be18-95ab48b5c065": 45,
-  "ff3b902a-e469-490e-9859-59ee4433299e": 28,
-  "52c4a12f-16b2-4792-8f9f-37d1ebc41cb2": 15,
-  "bf12a584-7fdc-44b2-b661-1d0e4792f5ce": 12,
-  "d5705f5a-7b10-499c-a6e5-6feda06a295c": 35,
-  "dafd14db-a601-4880-b69a-5d248d0135ea": 30,
-  "625d0dad-93e0-47c5-8a71-e4a58fbbf601": 19,
-  "b8b95873-2dba-4ef0-b49b-c9462684a6f4": 38,
-  "994f5d3c-5e93-4f56-80a1-9edb1a87cc20": 15,
-  "0aa3bf6f-2b65-4b5b-86dd-7202d31b8442": 40,
-  "a821a94c-3bf1-425a-a39f-fc021b75252f": 45,
-  "aa6ee4ee-3d90-4b5e-b2a1-cf09f0080c3f": 12,
-  "787f3345-8945-4d60-82a0-11cfd6a07c76": 43,
-  "f6eba7cb-eb5c-46ee-a020-aa93a85671d4": 22,
-  "54c67cde-9a4b-458a-b79b-d71bcb47d40a": 5,
-  "766614fc-fc91-4d3a-8d29-8f664f7e755d": 48,
-  "277220c1-63b1-498a-bead-e8e0eaff06ab": 38,
-  "d9e3b656-8e69-46c3-b013-cbbd326286ec": 22,
-  "4c8f5861-9c8a-41bd-84a3-60240878c20d": 27,
-  "87c1a4d4-1188-4c5b-961d-23e7c0a62a44": 30,
-  "9486e44f-4b55-45b9-95bc-0272fa509506": 6,
-  "042e1210-6310-4ca5-b538-21184ae4c567": 37,
-  "c7deb41c-ed68-4ce8-be2d-4bc030e5e094": 39,
-  "579ac457-5160-4fb7-869e-e706bf66eb15": 45,
-  "873d5a37-23c9-4f53-8992-2c2656684526": 24,
-  "69b33680-15c2-445b-8938-c77185bba340": 35,
-  "62614f87-9fc1-4f19-96c3-1bf8c048d008": 14,
-  "0281ee8e-7068-4651-8857-4b6ade6232a3": 15,
-  "c810ffda-3e8a-44eb-9d99-0e1d780ff64c": 1,
-  "0d1de021-c83f-478d-b2d2-d4b93de9fd68": 29,
-  "8e04c9ee-dcde-4d8c-98de-8f844a3612ec": 47,
-  "311a6c6e-1a8b-4fb1-860f-2f7924f75b32": 4,
-  "e99ec94b-8c89-4b66-99d7-bbeb37099cbd": 41,
-  "9f7df6ee-0f2a-4f26-b2f8-659111d4c116": 10,
-  "225dd213-2ef6-4578-913d-1c0a927cead3": 3,
-  "9c4fdaac-376a-4361-b964-bc47efe575ce": 2,
-  "ae1d413f-18e5-43dd-894b-6c7e412e7ad4": 33,
-  "7d380ef3-0acc-4803-9bf7-7788811487f5": 19,
-  "73ffe557-e4bc-466c-8318-f3479665f701": 23,
-  "4ba7a609-0c99-446b-a626-2cdb60e89bef": 2,
-  "d3459215-d1aa-4db7-9d25-05b85a6d6df3": 2,
-  "ffb099ac-8974-425d-98e4-2768c0133e5e": 47,
-  "7ac4abaa-f5f0-452a-a1d7-409b692f9c30": 3,
-  "02bc1646-0640-4a5a-a2fc-a15a67350e25": 20,
-  "86c0ffc3-1736-491c-b7a7-83e63dff7326": 36,
-  "a79b4487-fed4-4515-8749-d16f883ad7eb": 49,
-  "2c8676d4-c897-42d4-bc81-7b233e3db13b": 30,
-  "277a4b82-a5d6-4db2-8d91-235885886b7c": 28,
-  "9f0494c9-74bd-462d-8181-cf49fb1a368f": 34,
-  "bf3f8914-550e-4c8f-bc64-9e25bfab836d": 20,
-  "77f423b6-dab6-4ac4-8b51-ec426b2a7086": 48,
-  "0595e804-bdc9-4941-9653-64fcdbd13190": 37,
-  "f01d077d-a36b-4937-b598-d692d05c6418": 45,
-  "77d6b6d9-f7ed-4b82-a5c7-f0d85bff30eb": 11,
-  "769c70ff-d246-47d6-8fd6-0520363feea1": 35,
-  "2481dda3-bf86-4b21-9daf-0e03a4b954d3": 16,
-  "200405cf-1ea2-4ccd-ac00-5dd1c4a009e3": 24,
-  "a7535fc7-8b11-4329-abd9-7b3338ffeb02": 19,
-  "b458f1f1-1b0f-402e-9bde-386118cbdc73": 27,
-  "40cbbee4-fe21-4f45-87e5-5fe7301ac7c1": 37,
-  "1c9eb48a-d371-4275-97c5-642e5037ad18": 43,
-  "6b872386-e300-4997-9191-4161b2925032": 20,
-  "a8467e50-6f76-4012-b220-a3b5fb232cea": 31,
-  "9d92498a-3120-457a-9cee-0a694212f942": 31,
-  "d2ffa5b4-794e-4076-af1f-0614e2d10653": 32,
-  "700f58dc-cd06-4a0a-a07a-1c3336cf3264": 36,
-  "c232e289-3d16-4f6b-a6b4-3370d393c809": 19,
-  "1a5c6649-806e-486a-842d-db2de725ede1": 48,
-  "57b16581-d1fd-4bd2-a89e-70f9d887726c": 10,
-  "5efb4cd2-8173-4a38-ac8f-37252b43c6ea": 16,
-  "7ecabdc3-946c-40ba-92f2-783a1aa6e3ed": 19,
-  "bbc3398c-01fe-447a-a4cc-1e2e70efc2c3": 3,
-  "ad360086-ca1a-4260-862e-6ad56ff14576": 42,
-  "cc2158ad-1e1f-46e5-9bdf-67a2d3ad26d8": 18,
-  "3d7e1279-b35f-4a2b-aac1-2161694613e1": 3,
-  "0652c595-1403-4ff7-9d8a-c8315d269343": 26,
-  "af341fa5-4a8b-49e7-a9ed-ce191081dcfc": 9,
-  "d9cd90a9-fa2b-49ff-9822-e13ab29b065e": 24,
-  "35014be8-5d8f-4556-af0b-e0f438d34d07": 13,
-  "baa515fe-24d2-4e5a-ac59-9c0b0963559f": 33,
-  "4d5685cd-e423-443c-b8e9-5ad163f3ee57": 21,
-  "0ee26d87-23a9-41e7-bba8-d38a1acc2d4f": 49,
-  "659499f5-869b-4956-ba07-d3a893060fb4": 33,
-  "2f61abbb-66e8-4642-8608-39d53cbf5249": 34,
-  "f955fc21-1fba-4328-9b12-f0ca301a873e": 6,
-  "40d40381-ab9f-43f4-83e2-cc7073870eab": 24,
-  "c7414e2a-dad4-4966-a9b2-e0d55e5267ac": 2,
-  "d22644e2-1d25-4beb-babc-b3820eb9aecc": 35,
-  "e2c3d7cb-a357-47f5-b100-501457e3d242": 12,
-  "ef251a4d-5163-4066-bdb0-25284f27a120": 28,
-  "9ed7b495-3e6c-43f6-8c18-835f60c602fe": 46,
-  "08be102f-0b76-424c-9944-88eeb9d5be61": 20,
-  "ab475571-2ee9-4708-9b80-7d9ada51c018": 41,
-  "d6465f51-36a9-4a23-bbf4-c9acc2cf78bf": 16,
-  "8182b41b-f64f-4157-9cae-1987e5e799c7": 6,
-  "d931d3d6-1dc9-4d1b-9522-6edc8fdc875d": 43,
-  "1681b70e-4216-40dd-a2fc-b80ca83c7917": 30,
-  "33842fe2-2a9b-4907-abe9-302551414c88": 17,
-  "edb7d7ab-dbc3-4de5-bc9d-57cdd0481049": 44,
-  "c86b75c0-bc15-4500-9c00-0e77a4a24bfe": 49,
-  "af98425a-11a5-48fd-b624-78ef7b6d0575": 44,
-  "ad5af8fc-cb25-4cf4-b9c1-926002a2a205": 7,
-  "085fe4f5-ade9-4c3d-a8ad-bfeba932cdd5": 22,
-  "e739e3d3-72e6-4a6f-bdb9-64401478185b": 10,
-  "a3e91e88-3738-434c-9828-76126c54b86b": 31,
-  "769b4bfd-ded7-4676-88fe-1d7176a6246f": 3,
-  "1bda6ea8-a754-46c2-863c-b863d594f2d4": 16,
-  "b98e94e9-a549-426a-93b8-6a529fe75b85": 36,
-  "986cb3e7-1516-433f-bf3f-93f49dda94f6": 20,
-  "8f1b3ed6-5ef3-4263-aa60-16f008645413": 42,
-  "3d44f371-78b1-431b-8acb-20b1cbc76c46": 48,
-  "acd3ffc9-70fe-406a-a253-25de3e241f7f": 12,
-  "caa78636-143b-4530-a5f0-412fedac3edc": 20,
-  "9b555d05-5487-4a67-bc79-fc2fb85e7417": 8,
-  "6d3b4117-5965-477c-a29e-b0808eb86994": 37,
-  "517984bf-0a92-4617-bb2e-7029e91cf33a": 15,
-  "5a0d7ee1-e1aa-4c3b-a977-73319264b369": 19,
-  "977aa226-808b-4ff3-9236-d2a83df09258": 2,
-  "305de20c-136f-4c9f-b903-e821abe3ef8d": 46,
-  "d4917a09-1079-46e8-a9e2-03eae9cdd4ef": 35,
-  "53199163-6a3a-47f3-97fb-1082d5508189": 45,
-  "b5e4436e-036c-4fb5-864e-cadfd424c3c8": 27,
-  "2518d6ab-bbf6-4b71-b016-e5abcf05ced7": 26,
-  "13c4df92-54a3-4be0-93f9-a8c1f48533de": 23,
-  "13c11bb9-2df7-42f9-b889-554f9827e591": 27,
-  "3c5bdcc2-1159-4e34-8ced-270b8b3c99a6": 23,
-  "73fa05b2-bf83-44a6-9075-248563fc569f": 44,
-  "c2fe1d4b-af42-4a11-8c07-c1532c3c8a26": 19,
-  "e49afca3-69ac-4615-a70f-2f04d044b75f": 22,
-  "0afa26c4-79d1-487a-b596-5a48efcda33b": 5,
-  "0eee78ee-2a32-4a80-b376-d31b2f047278": 26,
-  "18d0700d-6df6-496d-830e-c3a03cd308e6": 39,
-  "0db1e363-036c-40f5-9731-9c8085ac8c82": 38,
-  "a8796ec1-5ee1-4035-9737-9f2ea4ff12ff": 27,
-  "c50c430b-fceb-42f8-872b-5e4d3586fb72": 14,
-  "c42ce751-3517-40ad-b45e-b758dd2547ae": 29,
-  "6bb38c70-78dc-4c50-8cb4-b9383663b95b": 15,
-  "34979ead-c8c2-4aff-88f5-be1a7758d15f": 26,
-  "c69c5948-4640-4e73-bb8c-42405b5b8461": 15,
-  "b3020155-3314-41c3-9832-0df8d3bd066b": 30,
-  "f6f951d1-803e-4249-94ff-f3a2fca0c8f4": 8,
-  "cadd545c-ddd3-4aea-97ce-715cb0031f1e": 25,
-  "b938caf8-1510-4f98-9e17-4b6198d9850a": 5,
-  "7a1c9fcb-55b0-415d-a4c5-334b4ab24283": 12,
-  "eb01ddd2-f5e3-4a86-a3ad-2216a1a791f4": 1,
-  "d0015a42-3ec3-4b4c-992f-858be1f62cbf": 37,
-  "60f2fddf-ad6a-4120-8837-8412997a40bf": 15,
-  "8873a307-ef53-49f6-bebd-9b08b525e141": 28,
-  "f0e2f152-a220-4ee7-bfa9-c68101f61458": 23,
-  "c0b71146-4835-4aed-ac73-facc4fa20d18": 46,
-  "3dcdc466-6024-431f-b273-5d2b74bfe9f4": 16,
-  "c3e275b6-95e0-45b9-9185-0a6de22e3b1b": 1,
-  "ee44d405-c290-402a-bbd1-8175ddddb087": 22,
-  "b13bbfe6-97ca-49c4-a2db-995b6e1eeab3": 7,
-  "a2127d19-7666-4f08-a996-092f94d1694b": 4,
-  "d9ff4378-bcc9-4c05-8af6-3eba593b0791": 30,
-  "20cbebc7-82d4-447d-ab5f-35bb793e014d": 36,
-  "914aaec7-1277-4842-be2e-e1888a65fd46": 45,
-  "444a7c46-e3db-415d-9431-3796a8e9edb4": 41,
-  "bea8c13a-2b40-47f6-acdf-7d735274960f": 3,
-  "7b7ab66b-2fd5-477f-aefb-03ec1d2d28ab": 48,
-  "66c27a1b-670d-414e-8fdb-9052dc3e7437": 30,
-  "7432842d-53c0-4adb-a8b9-90720161bc44": 28,
-  "b8b838c0-b101-4c26-a8d5-dc186cfe9f78": 26,
-  "f2447e89-dc9d-4299-a6bd-1d6786db3e89": 40,
-  "aa71b3d8-c6b2-4163-9b0f-182ec9894fa8": 16,
-  "0cec8bfa-26b2-4712-8141-7ff2afab3738": 33,
-  "63fe1af7-e503-429c-9473-5aef17ad32c0": 3,
-  "2d83bfe2-e4e7-41f5-afb9-39ae881c765c": 8,
-  "374cc580-0525-495f-abe6-6c1234789a64": 45,
-  "b49268c0-267f-4567-82a3-d378d2107620": 13,
-  "01a82b90-89f8-48fb-b33a-037823df760d": 28,
-  "11af85f5-25c5-4e1c-ab35-28b32b73dc1e": 19,
-  "540912fc-2007-4e22-94d9-6faffab64fec": 31,
-  "c5f97d6a-485e-4435-ab2e-a7799d68103e": 48,
-  "01ba39b5-dae3-493c-8082-a3eb48e08b4c": 22,
-  "bb65fdcf-d2b9-40a0-ada4-0e30009dbcfb": 2,
-  "c80d6e11-f903-4388-a2a7-644bf3a2439a": 37,
-  "cd8c0016-c38e-4211-a0b7-06896e1563f7": 16,
-  "bf3cb925-503a-49b7-b448-d0c03d9134f1": 33,
-  "8e14e4c9-d5fd-4ba3-b30e-d04d8d2b91ba": 5,
-  "fe964913-1dfe-47c2-a6a4-527f3dc624cf": 4,
-  "34f3690c-04c3-4412-8ede-f4aae3fbb9a2": 10,
-  "b9a4373d-2b93-48ab-baed-1cf18b4e7b91": 46,
-  "72a06831-3fec-4a02-80b6-4aecff7f795b": 28,
-  "aa2265fb-f98e-4e40-804e-2978077d87d5": 12,
-  "0317575b-121d-4bd8-afc3-eb6a8932fcf0": 18,
-  "55f19b3c-41a7-4842-b80b-a93686f50e1e": 33,
-  "f0b8b70b-39d5-4005-8c14-8f209c396660": 16,
-  "c1619fa2-18b8-4122-a195-5cb4f5fb8d7d": 49,
-  "526a20ac-ce29-4380-889a-b041b1c077ba": 24,
-  "2009e4c2-b6c0-4de5-9409-7387831d5f75": 35,
-  "c12a5388-2511-436a-85ac-64a7d81ae55d": 43,
-  "4d11911d-2f8f-4d1c-b63d-4b1de0b639e6": 48,
-  "d3967f33-3476-4829-9b25-044a417d944a": 4,
-  "0c0dd073-3b9b-43d1-954d-1d839b117ffa": 13,
-  "3aac25fe-ee58-457b-9a83-bb7560208249": 37,
-  "09b5f96e-a132-498b-bda2-0c7454db5b74": 34,
-  "6f7d354a-bb4a-4769-8339-774df405aa29": 34,
-  "becf8f49-00fa-44f3-9b6c-d6c64f71bb94": 13,
-  "80ce8353-279e-4cf4-800f-7bc3c3ce398e": 27,
-  "c5fe49fe-efca-4b2e-b633-accd137608fb": 46,
-  "6d314239-02f4-4708-8dd5-239c170720ec": 45,
-  "a29c6aea-5d67-47f3-aec3-da127ce6f632": 6,
-  "adb56fc6-d4d4-4c12-8ca8-e05d1e5c6f6a": 47,
-  "f28299e6-9035-499a-ae1d-5fb3162b2a49": 39,
-  "01eb0e26-cdf1-48ee-80aa-e528eae7f0bc": 4,
-  "9c70a24a-2ec2-41e4-b54f-635a1ab855b4": 14,
-  "7e1a0622-a334-46f2-ae8c-2b01e7a3b1d8": 20,
-  "dcaae254-8cac-4c80-9f28-053ea47bdd3b": 47,
-  "80b09e2a-bc50-4d86-a587-9a4eac38618d": 5,
-  "0337622c-64d5-4009-b144-2fd75489a8d0": 41,
-  "edfc9588-758c-4cb8-b254-8ae8c8672fb3": 23,
-  "ab26e753-a863-4779-9ea5-ddb2c5257284": 17,
-  "0c9462ab-d1ed-4c05-8f2b-d0e6f2805da0": 49,
-  "77051ed5-b9f7-4542-9786-9c4fec4d2198": 34,
-  "c9b2df4a-6adc-43bd-85a8-95b738261351": 43,
-  "c75e21b9-3d06-4bd6-863f-9f31b9e182dc": 34,
-  "89321bb6-5015-4ca1-98e5-1a889d912512": 35,
-  "96332155-bc17-4b8f-9ae7-6747ada7b0ea": 10,
-  "28be40f9-4926-4996-bbcd-d20d513ad79b": 34,
-  "4d47ea17-7566-4afb-8749-f371a5145420": 11,
-  "39df052c-ca10-4711-899d-7306579680fd": 5,
-  "97262327-e449-4642-9477-24efb041c5af": 5,
-  "f3cd4e18-2da9-4821-912e-5624dd521eb4": 6,
-  "1196296a-ae54-4dd7-b7a6-5b9583293b66": 45,
-  "71be21dd-8c6b-451f-8cb1-b69c2136deef": 21,
-  "dab11e8c-bd05-451e-b21a-b8bc8abfe3e5": 37,
-  "6781e77f-ce90-4641-94b1-b07deada706c": 32,
-  "42aaf689-1c18-4f5d-8923-61c81c828940": 16,
-  "b6e99e58-6ffb-4046-9432-4201a0a88d39": 37,
-  "9d9041fd-8cdb-49aa-a378-60ef2bcc2763": 45,
-  "fd0976cb-44df-4f6c-b581-ff59a8c992ea": 6,
-  "daef8d41-9e0c-46e2-9b74-966ed1569d2e": 33,
-  "be22d934-73ad-40e8-9678-9115afbbd0c2": 34,
-  "57639c8f-4dfc-46d7-85ba-c96799bdeaa6": 26,
-  "7991dec9-b2a1-49c1-9437-6b85ffd45da0": 31,
-  "21b427f3-6683-4cca-9677-e619f4d7a6a4": 49,
-  "75f7050c-78aa-4a8c-b47c-3f963e506ad0": 33,
-  "835abf82-0fa9-4efd-8912-d56594bdfc69": 25,
-  "d0739fe2-dda7-4742-b581-12dff506934d": 48,
-  "30d55e20-ea43-4b51-8953-a81ebf2bdb85": 37,
-  "42503fa5-1a47-40ba-823f-78ae1e36aef6": 47,
-  "759d49d3-0067-4d1d-a34f-29234493f70e": 46,
-  "4a4709f2-3b15-4c8c-a0bb-c2f82e14cf9b": 15,
-  "20df6999-9844-4263-8576-8a99a6577388": 7,
-  "5855d1c5-c4f3-4f3a-a0e3-8db823c79eaa": 35,
-  "52c32dd9-f010-46e0-9462-b5f48e30d262": 24,
-  "05ec1a27-7ba1-4432-9237-b2fa99b537e8": 9,
-  "e0f58e62-636e-418c-845e-8c5056eedd6b": 14,
-  "a4c32e96-6807-4fbf-be75-1455f5582f8a": 1,
-  "1b45fc54-c947-41c4-b2bb-63c1ca8ed208": 27,
-  "6bfdcadc-827f-4394-b107-510330c500a7": 33,
-  "07b2afc9-b5b4-46a8-8d86-7870884e6238": 5,
-  "7595baf4-58dc-494d-ba3a-52bc84d75ee8": 17,
-  "2e29d027-61fe-4eec-9854-886240508f46": 27,
-  "66eb3b8e-4a58-4393-8f74-c25f7fe2abbc": 35,
-  "8c35e715-eaa6-4509-8aac-c1a0fc511b09": 41,
-  "38a694f8-3e28-400f-8f26-c5ef1c0860cc": 31,
-  "8df603eb-c10a-4880-a0b5-ee9d8d1c1996": 20,
-  "14109943-8f2f-416d-95a5-1f9f3bea73b2": 37,
-  "cd6b65fe-fb9a-4624-b5a4-85ad401b45aa": 28,
-  "ceb8cdae-cf49-4c83-9c82-4a4deea6e10a": 15,
-  "d5492f4a-1080-4d55-8ade-bb04a7010c1b": 26,
-  "3215887c-e202-4da0-984a-a033d2d64a7e": 48,
-  "21f28c1d-1033-41dd-a288-4d66be7bec4d": 34,
-  "489de561-afcc-4646-8840-148c2ff78916": 35,
-  "1684b552-5358-46ee-b54d-e53704e85c18": 46,
-  "2c61171e-8904-4131-a29b-4887b61bd44f": 14,
-  "cf0c8d09-82cb-46ca-a410-e574d009436b": 25,
-  "e121e365-bb34-454b-835a-b87133aff572": 6,
-  "22cd5ee9-8d11-4c75-b555-5f376478085f": 20,
-  "fcdcb071-8f8b-4e7e-bd0a-c15b4b530c47": 33,
-  "183aed05-6ca3-4886-80f6-79704e9b3089": 16,
-  "1fb2b427-fc54-4ab3-aa6d-3779eea18547": 49,
-  "d02382e2-0830-4e70-88ba-570f60853914": 26,
-  "94958adb-8293-496e-83f9-025fb6177eab": 4,
-  "17ea45f7-080d-47fb-bba3-fb619a20aef0": 38,
-  "ff34f0bb-84f7-44f3-a2d8-1560bc4de350": 2,
-  "a1b787fe-0aca-40a5-9bc1-e0ec1e6747f4": 19,
-  "3c5041f0-5ae7-4179-adda-e02186bf399a": 22,
-  "1e585ce2-0932-4f02-867d-0481e0af2309": 19,
-  "0a4fa5e0-c086-4237-98fc-3cb4ee4fc9fc": 39,
-  "c5f82d99-dee7-4a44-abc9-86f3438d858f": 3,
-  "add4390c-e7af-453a-9c78-39d8c5763863": 33,
-  "1ac612c4-b7b8-46a6-884a-9c47de713d2a": 27,
-  "a86e2674-7acd-44fd-b57e-2e59ef6b515a": 44,
-  "8dc40369-4f31-4e1d-9095-5c8aae918e62": 40,
-  "5b54648d-2804-459a-aaa7-582a043ead08": 47,
-  "9a81f435-e673-4555-8476-d9f206aabaf2": 4,
-  "bfa1c61b-f467-4d03-880d-d766e1c2e069": 19,
-  "d0741b41-08d0-4c24-a2bb-49c05723c88c": 49,
-  "f2ae572f-a0d1-469c-9d6f-5c20b87b74c9": 42,
-  "23b1e497-deff-4730-bcca-6876f3ea48f7": 8,
-  "5bbfc73e-3c16-4dc7-afcb-065a075223fd": 28,
-  "02acbebc-4e7a-4c3a-9922-8f6a30549dba": 2,
-  "60e3d8d4-5795-4b52-9d67-0c0e23b3981d": 42,
-  "2559c787-23e7-4874-93e2-d02dac186d79": 17,
-  "266f903d-2459-4a8a-b044-53d41685cf14": 47,
-  "17bee70b-0721-4428-aab5-1e86e889f33e": 7,
-  "bdfcc7f7-d5ea-4e8c-b8a2-59eaf541208a": 46,
-  "34de1769-4929-4262-84d7-9673f1dcce8e": 18,
-  "73e0933f-c83b-40f1-b1ff-14423be2687b": 23,
-  "bc95f13f-4da8-49b9-88d9-2ac22c8d10d5": 15,
-  "8a0ffb93-c40a-4ead-a1f2-0963b0be014a": 29,
-  "f82668c0-feaf-4055-9eef-aba7bd28c4da": 21,
-  "0360552a-b008-4fd7-9853-5d17a17fce4f": 8,
-  "40870ed5-07a2-4459-9fad-d6e9bb1db21b": 39,
-  "da4d6cb2-cefb-458e-8204-8c4fba92a48f": 36,
-  "97808b12-eb1f-478b-9b9a-47b9eaf04468": 12,
-  "297ce6d3-985d-43ff-a5df-29b9cb1b19c1": 34,
-  "1ac1d3ff-c9e3-4b07-a92c-6a420ba224de": 6,
-  "a4ceac82-cf4f-4d4e-b9a3-624c1d9a74da": 32,
-  "d2809255-9798-4eee-8079-62ed17d4d132": 42,
-  "b2fb7a6f-a0e6-403f-97bf-3b97a03c0436": 23,
-  "e88691ce-6d49-4efa-960d-65d271fbc7fe": 32,
-  "6054cbe7-b210-4694-961f-34b8d2b7b6d8": 12,
-  "ac171c80-f755-4b44-8c78-edf69bcf74aa": 25,
-  "23361528-8426-4eb9-9a98-432916302ee4": 33,
-  "2d336fdc-d4c5-4faf-8a80-5fed3f2d4a5f": 6,
-  "38aaf666-8b94-47e0-bd40-f3ace5c3febc": 44,
-  "6369212b-1723-408c-bd0e-bedf25c3ae8d": 17,
-  "b988d0ad-a45e-40c2-944b-c66593fb2aa4": 11,
-  "d589148a-31ef-4ba4-8fac-5eec93e0d03e": 23,
-  "b25cd48f-14a6-421c-ba1e-08823cc5a5b5": 19,
-  "4ff6ecf2-536a-43fe-a0c5-c95f3c6f3f99": 21,
-  "bb41ee2d-ab56-4626-9b19-d7b54fb1add4": 20,
-  "8b8ee739-0d31-4a0a-bc37-22560212d5d3": 35,
-  "f0ac6811-29a3-490e-a5bc-4dc2fc0fea1a": 20,
-  "ed1a13f7-cf5d-401f-922d-48b4fb880a3a": 28,
-  "e4c894a0-4f74-49a6-878b-f3cab32b3df2": 39,
-  "7628f444-20ab-4f0a-9949-ec73665ef706": 41,
-  "0138544c-9aae-47ef-b627-4779d713726c": 9,
-  "044ee3b4-427e-478c-9c4d-ccf1446b3bc7": 34,
-  "d8aa3e81-ead7-4160-9aad-7dd342f9db41": 5,
-  "ff6b3c72-9cfd-4adf-8560-35d224588872": 26,
-  "469f2a50-38bb-4baf-8134-503b97376016": 38,
-  "032f0aac-8f41-4b15-bf61-7f8f23428caf": 16,
-  "95b05445-ba3f-478c-aca4-c3cd893582aa": 45,
-  "9d5e15c6-ced9-43a2-84af-685c2275bdbc": 29,
-  "3dc44fc1-f030-4451-aa6f-785d82b274fc": 47,
-  "9eb77437-d2e3-43f3-88d1-6b53b9da81d1": 19,
-  "064a0117-f122-4346-afa4-6992333ddb9a": 31,
-  "b8caa70d-c82e-4e89-8517-e7de5a43ed5d": 10,
-  "874b4d91-354b-4447-b858-1998c92bd0c4": 11,
-  "be147222-009d-446f-b4d2-ee0e80d3131c": 34,
-  "e065988b-151c-436f-a080-43943f49754b": 36,
-  "9a9727d1-071e-4375-8ed4-c41dda63497b": 28,
-  "01f7eede-42f6-4ab5-a6ad-8688f85a745b": 6,
-  "17f53b24-f19f-46b4-9fa7-a7dcbdf35096": 48,
-  "d44f9186-dfc9-4ba4-b82c-f97103d9b6e6": 6,
-  "3a282d98-bba8-44da-86c7-4584db325702": 20,
-  "8c3edbce-e369-4b3a-abe1-ea00e962a4fa": 42,
-  "77c238fd-7f5a-45c5-a4e4-a33b86fbc847": 6,
-  "3fdc21bb-9b0c-42fe-94ec-bea663dea0d9": 12,
-  "84cf5ff8-188d-427f-8cdd-36e00d237feb": 16,
-  "07c86ae6-0a19-408b-8d7e-8d20c89c5ae5": 35,
-  "4820a294-afaa-4e31-b3da-4b10ee1be061": 41,
-  "4ea4ff37-ef52-4160-ba9b-24d5084aa835": 37,
-  "29ff61e9-08c7-4931-8ffd-1443dfc5b85a": 28,
-  "b8cb6ffa-6cf8-413e-a60b-2a3e17a0542c": 30,
-  "4929a041-7385-4a03-aa9b-9453f15fab2a": 25,
-  "6402eb91-517f-452d-9290-35241e16d430": 33,
-  "2db8d7bb-3486-4368-9d6a-a91fb40373bc": 8,
-  "3293e46b-2def-4283-bd1b-1a7103677654": 26,
-  "4eed5ccb-cf33-424e-a2be-c7f43ffd8fd0": 31,
-  "0429269c-b298-455c-8d02-bf534f040e0c": 2,
-  "36d3fbae-1f4c-4e18-a210-0f826ac0e494": 10,
-  "d8431d94-0973-4e84-b351-d75d74909aae": 19,
-  "024bfab2-6c91-4687-88c4-2cac7df6bfc3": 4,
-  "dfff2600-791a-4354-8e1b-5b5f87b6b190": 35,
-  "0e63e3c5-ef72-4b1d-b9b8-463a39497dd4": 7,
-  "73480522-ca68-4a70-a828-0d3946b42000": 32,
-  "51023d82-7e25-427f-8a60-5acde3414974": 38,
-  "613ea028-4286-450e-b37b-b9094ce79d4d": 49,
-  "10c44aa9-6359-4e1a-8292-a927352b142b": 25,
-  "8c0d16cc-006f-4466-9108-fafff28db049": 42,
-  "33d654d5-6ec4-48cd-82a6-e64f15550a66": 1,
-  "0f5b8211-382e-4250-b7e1-0d2ca74b0fe4": 35,
-  "6f8822df-c08a-47e0-bf54-c1f4c744e72e": 25,
-  "d100bc1f-b747-4b3a-a1de-3d646cb74d2d": 20,
-  "71684273-bddb-4c6d-8262-65a51f62ba94": 49,
-  "2c0ca739-866a-47b1-8761-7a4afc3962a4": 1,
-  "14ea07d8-a4ab-46b1-9584-27a1c17e9103": 9,
-  "19008a1f-b27a-4e0f-ae83-d36084cc49db": 26,
-  "b0c0490a-4451-4bf4-9b23-e84a31a360c9": 15,
-  "dee23882-8039-4fa4-9f8b-a4318bda9975": 46,
-  "eeb11f3c-5143-42fa-927b-a53ad86a1d8b": 15,
-  "5ae16bce-0411-4f80-868b-4028e4883a37": 12,
-  "89b21f8f-909c-41d8-8748-a9c5d705c34c": 0,
-  "bd87fb27-532a-4683-93f5-f5fd00a023a0": 9,
-  "32ef7c4f-dbd0-4f53-93fb-a96ad6358345": 18,
-  "8d2d2f1e-4594-40b5-9d68-5f374618e9f9": 9,
-  "6f6f3f2f-17c7-49dc-a81f-55f93ace3eb4": 36,
-  "5c2907c7-8a3e-4437-827f-eb09decaf3c6": 8,
-  "cff3bcf6-0213-45c6-9958-50aae1f8f40a": 19,
-  "66076b93-43b8-47e0-b568-ee05ce2c34cb": 9
+  "0617b04b-c156-4f5f-92a8-5d033c75a948": {
+    "stock": 14,
+    "category": "MID",
+    "price": 14.9
+  },
+  "e6bb071b-8c6a-45a4-aed5-9ab8433a8ab7": {
+    "stock": 67,
+    "category": "MID",
+    "price": 13.5
+  },
+  "5fbf6be3-c75e-45be-827f-b5559ff72e24": {
+    "stock": 53,
+    "category": "EXP",
+    "price": 62.1
+  },
+  "842b7710-7725-4196-9356-ee78615b7bb6": {
+    "stock": 41,
+    "category": "MID",
+    "price": 15.9
+  },
+  "f1667d0b-9cf4-4d58-8c1a-bbd9d1f46995": {
+    "stock": 13,
+    "category": "EXP",
+    "price": 59.5
+  },
+  "7181d415-458d-4501-9731-55f24d7ed2df": {
+    "stock": 23,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "d0b2f834-4352-40e5-b886-2f8c8a42d68d": {
+    "stock": 7,
+    "category": "MID",
+    "price": 16.3
+  },
+  "a59d3c6b-75a7-465d-9c39-51cc8a660e4e": {
+    "stock": 40,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "c8fb55a0-5cd9-49e9-be18-95ab48b5c065": {
+    "stock": 33,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "ff3b902a-e469-490e-9859-59ee4433299e": {
+    "stock": 2,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "52c4a12f-16b2-4792-8f9f-37d1ebc41cb2": {
+    "stock": 21,
+    "category": "MID",
+    "price": 14.4
+  },
+  "bf12a584-7fdc-44b2-b661-1d0e4792f5ce": {
+    "stock": 37,
+    "category": "MID",
+    "price": 13.6
+  },
+  "d5705f5a-7b10-499c-a6e5-6feda06a295c": {
+    "stock": 62,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "dafd14db-a601-4880-b69a-5d248d0135ea": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "625d0dad-93e0-47c5-8a71-e4a58fbbf601": {
+    "stock": 62,
+    "category": "MID",
+    "price": 11.8
+  },
+  "b8b95873-2dba-4ef0-b49b-c9462684a6f4": {
+    "stock": 32,
+    "category": "MID",
+    "price": 16.6
+  },
+  "994f5d3c-5e93-4f56-80a1-9edb1a87cc20": {
+    "stock": 49,
+    "category": "EXP",
+    "price": 62
+  },
+  "0aa3bf6f-2b65-4b5b-86dd-7202d31b8442": {
+    "stock": 73,
+    "category": "MID",
+    "price": 14.8
+  },
+  "a821a94c-3bf1-425a-a39f-fc021b75252f": {
+    "stock": 49,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "aa6ee4ee-3d90-4b5e-b2a1-cf09f0080c3f": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "787f3345-8945-4d60-82a0-11cfd6a07c76": {
+    "stock": 61,
+    "category": "MID",
+    "price": 14.1
+  },
+  "f6eba7cb-eb5c-46ee-a020-aa93a85671d4": {
+    "stock": 52,
+    "category": "EXP",
+    "price": 60.5
+  },
+  "54c67cde-9a4b-458a-b79b-d71bcb47d40a": {
+    "stock": 75,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "766614fc-fc91-4d3a-8d29-8f664f7e755d": {
+    "stock": 17,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "277220c1-63b1-498a-bead-e8e0eaff06ab": {
+    "stock": 23,
+    "category": "MID",
+    "price": 15
+  },
+  "d9e3b656-8e69-46c3-b013-cbbd326286ec": {
+    "stock": 12,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "4c8f5861-9c8a-41bd-84a3-60240878c20d": {
+    "stock": 45,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "87c1a4d4-1188-4c5b-961d-23e7c0a62a44": {
+    "stock": 71,
+    "category": "EXP",
+    "price": 59.4
+  },
+  "9486e44f-4b55-45b9-95bc-0272fa509506": {
+    "stock": 52,
+    "category": "MID",
+    "price": 13.9
+  },
+  "042e1210-6310-4ca5-b538-21184ae4c567": {
+    "stock": 17,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "c7deb41c-ed68-4ce8-be2d-4bc030e5e094": {
+    "stock": 64,
+    "category": "EXP",
+    "price": 65.4
+  },
+  "579ac457-5160-4fb7-869e-e706bf66eb15": {
+    "stock": 42,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "873d5a37-23c9-4f53-8992-2c2656684526": {
+    "stock": 65,
+    "category": "EXP",
+    "price": 61.2
+  },
+  "69b33680-15c2-445b-8938-c77185bba340": {
+    "stock": 62,
+    "category": "MID",
+    "price": 16.2
+  },
+  "62614f87-9fc1-4f19-96c3-1bf8c048d008": {
+    "stock": 3,
+    "category": "LOW",
+    "price": 5.6
+  },
+  "0281ee8e-7068-4651-8857-4b6ade6232a3": {
+    "stock": 23,
+    "category": "EXP",
+    "price": 58.2
+  },
+  "c810ffda-3e8a-44eb-9d99-0e1d780ff64c": {
+    "stock": 49,
+    "category": "MID",
+    "price": 15.4
+  },
+  "0d1de021-c83f-478d-b2d2-d4b93de9fd68": {
+    "stock": 41,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "8e04c9ee-dcde-4d8c-98de-8f844a3612ec": {
+    "stock": 67,
+    "category": "MID",
+    "price": 15.2
+  },
+  "311a6c6e-1a8b-4fb1-860f-2f7924f75b32": {
+    "stock": 36,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "e99ec94b-8c89-4b66-99d7-bbeb37099cbd": {
+    "stock": 71,
+    "category": "MID",
+    "price": 15.8
+  },
+  "9f7df6ee-0f2a-4f26-b2f8-659111d4c116": {
+    "stock": 14,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "225dd213-2ef6-4578-913d-1c0a927cead3": {
+    "stock": 27,
+    "category": "EXP",
+    "price": 55.9
+  },
+  "9c4fdaac-376a-4361-b964-bc47efe575ce": {
+    "stock": 0,
+    "category": "LOW",
+    "price": 3.7
+  },
+  "ae1d413f-18e5-43dd-894b-6c7e412e7ad4": {
+    "stock": 38,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "7d380ef3-0acc-4803-9bf7-7788811487f5": {
+    "stock": 60,
+    "category": "MID",
+    "price": 17.1
+  },
+  "73ffe557-e4bc-466c-8318-f3479665f701": {
+    "stock": 18,
+    "category": "LOW",
+    "price": 4
+  },
+  "4ba7a609-0c99-446b-a626-2cdb60e89bef": {
+    "stock": 24,
+    "category": "LOW",
+    "price": 3.9
+  },
+  "d3459215-d1aa-4db7-9d25-05b85a6d6df3": {
+    "stock": 28,
+    "category": "EXP",
+    "price": 59.2
+  },
+  "ffb099ac-8974-425d-98e4-2768c0133e5e": {
+    "stock": 53,
+    "category": "EXP",
+    "price": 58
+  },
+  "7ac4abaa-f5f0-452a-a1d7-409b692f9c30": {
+    "stock": 33,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "02bc1646-0640-4a5a-a2fc-a15a67350e25": {
+    "stock": 39,
+    "category": "LOW",
+    "price": 6.2
+  },
+  "86c0ffc3-1736-491c-b7a7-83e63dff7326": {
+    "stock": 38,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "a79b4487-fed4-4515-8749-d16f883ad7eb": {
+    "stock": 34,
+    "category": "EXP",
+    "price": 56.9
+  },
+  "2c8676d4-c897-42d4-bc81-7b233e3db13b": {
+    "stock": 21,
+    "category": "MID",
+    "price": 15.5
+  },
+  "277a4b82-a5d6-4db2-8d91-235885886b7c": {
+    "stock": 69,
+    "category": "MID",
+    "price": 13.6
+  },
+  "9f0494c9-74bd-462d-8181-cf49fb1a368f": {
+    "stock": 66,
+    "category": "LOW",
+    "price": 4.4
+  },
+  "bf3f8914-550e-4c8f-bc64-9e25bfab836d": {
+    "stock": 65,
+    "category": "LOW",
+    "price": 5.6
+  },
+  "77f423b6-dab6-4ac4-8b51-ec426b2a7086": {
+    "stock": 4,
+    "category": "MID",
+    "price": 13.2
+  },
+  "0595e804-bdc9-4941-9653-64fcdbd13190": {
+    "stock": 72,
+    "category": "LOW",
+    "price": 2.5
+  },
+  "f01d077d-a36b-4937-b598-d692d05c6418": {
+    "stock": 7,
+    "category": "EXP",
+    "price": 61.7
+  },
+  "77d6b6d9-f7ed-4b82-a5c7-f0d85bff30eb": {
+    "stock": 77,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "769c70ff-d246-47d6-8fd6-0520363feea1": {
+    "stock": 0,
+    "category": "MID",
+    "price": 15.4
+  },
+  "2481dda3-bf86-4b21-9daf-0e03a4b954d3": {
+    "stock": 12,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "200405cf-1ea2-4ccd-ac00-5dd1c4a009e3": {
+    "stock": 28,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "a7535fc7-8b11-4329-abd9-7b3338ffeb02": {
+    "stock": 16,
+    "category": "EXP",
+    "price": 62.8
+  },
+  "b458f1f1-1b0f-402e-9bde-386118cbdc73": {
+    "stock": 37,
+    "category": "LOW",
+    "price": 3.7
+  },
+  "40cbbee4-fe21-4f45-87e5-5fe7301ac7c1": {
+    "stock": 78,
+    "category": "EXP",
+    "price": 55.8
+  },
+  "1c9eb48a-d371-4275-97c5-642e5037ad18": {
+    "stock": 56,
+    "category": "MID",
+    "price": 13.9
+  },
+  "6b872386-e300-4997-9191-4161b2925032": {
+    "stock": 18,
+    "category": "MID",
+    "price": 14.1
+  },
+  "a8467e50-6f76-4012-b220-a3b5fb232cea": {
+    "stock": 48,
+    "category": "MID",
+    "price": 14.5
+  },
+  "9d92498a-3120-457a-9cee-0a694212f942": {
+    "stock": 15,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "d2ffa5b4-794e-4076-af1f-0614e2d10653": {
+    "stock": 12,
+    "category": "EXP",
+    "price": 65.5
+  },
+  "700f58dc-cd06-4a0a-a07a-1c3336cf3264": {
+    "stock": 49,
+    "category": "MID",
+    "price": 15.4
+  },
+  "c232e289-3d16-4f6b-a6b4-3370d393c809": {
+    "stock": 48,
+    "category": "MID",
+    "price": 13.6
+  },
+  "1a5c6649-806e-486a-842d-db2de725ede1": {
+    "stock": 77,
+    "category": "EXP",
+    "price": 59.7
+  },
+  "57b16581-d1fd-4bd2-a89e-70f9d887726c": {
+    "stock": 69,
+    "category": "MID",
+    "price": 13.8
+  },
+  "5efb4cd2-8173-4a38-ac8f-37252b43c6ea": {
+    "stock": 60,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "7ecabdc3-946c-40ba-92f2-783a1aa6e3ed": {
+    "stock": 5,
+    "category": "MID",
+    "price": 15
+  },
+  "bbc3398c-01fe-447a-a4cc-1e2e70efc2c3": {
+    "stock": 14,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "ad360086-ca1a-4260-862e-6ad56ff14576": {
+    "stock": 40,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "cc2158ad-1e1f-46e5-9bdf-67a2d3ad26d8": {
+    "stock": 38,
+    "category": "MID",
+    "price": 14
+  },
+  "3d7e1279-b35f-4a2b-aac1-2161694613e1": {
+    "stock": 6,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "0652c595-1403-4ff7-9d8a-c8315d269343": {
+    "stock": 3,
+    "category": "MID",
+    "price": 13.9
+  },
+  "af341fa5-4a8b-49e7-a9ed-ce191081dcfc": {
+    "stock": 34,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "d9cd90a9-fa2b-49ff-9822-e13ab29b065e": {
+    "stock": 0,
+    "category": "MID",
+    "price": 13.6
+  },
+  "35014be8-5d8f-4556-af0b-e0f438d34d07": {
+    "stock": 52,
+    "category": "MID",
+    "price": 16.4
+  },
+  "baa515fe-24d2-4e5a-ac59-9c0b0963559f": {
+    "stock": 67,
+    "category": "LOW",
+    "price": 4.4
+  },
+  "4d5685cd-e423-443c-b8e9-5ad163f3ee57": {
+    "stock": 38,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "0ee26d87-23a9-41e7-bba8-d38a1acc2d4f": {
+    "stock": 70,
+    "category": "EXP",
+    "price": 55.5
+  },
+  "659499f5-869b-4956-ba07-d3a893060fb4": {
+    "stock": 57,
+    "category": "MID",
+    "price": 18.3
+  },
+  "2f61abbb-66e8-4642-8608-39d53cbf5249": {
+    "stock": 75,
+    "category": "MID",
+    "price": 14.8
+  },
+  "f955fc21-1fba-4328-9b12-f0ca301a873e": {
+    "stock": 29,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "40d40381-ab9f-43f4-83e2-cc7073870eab": {
+    "stock": 64,
+    "category": "MID",
+    "price": 14.3
+  },
+  "c7414e2a-dad4-4966-a9b2-e0d55e5267ac": {
+    "stock": 54,
+    "category": "MID",
+    "price": 13.8
+  },
+  "d22644e2-1d25-4beb-babc-b3820eb9aecc": {
+    "stock": 24,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "e2c3d7cb-a357-47f5-b100-501457e3d242": {
+    "stock": 21,
+    "category": "MID",
+    "price": 15.1
+  },
+  "ef251a4d-5163-4066-bdb0-25284f27a120": {
+    "stock": 35,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "9ed7b495-3e6c-43f6-8c18-835f60c602fe": {
+    "stock": 25,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "08be102f-0b76-424c-9944-88eeb9d5be61": {
+    "stock": 64,
+    "category": "MID",
+    "price": 16
+  },
+  "ab475571-2ee9-4708-9b80-7d9ada51c018": {
+    "stock": 64,
+    "category": "LOW",
+    "price": 6
+  },
+  "d6465f51-36a9-4a23-bbf4-c9acc2cf78bf": {
+    "stock": 63,
+    "category": "MID",
+    "price": 12.9
+  },
+  "8182b41b-f64f-4157-9cae-1987e5e799c7": {
+    "stock": 34,
+    "category": "MID",
+    "price": 15.7
+  },
+  "d931d3d6-1dc9-4d1b-9522-6edc8fdc875d": {
+    "stock": 31,
+    "category": "EXP",
+    "price": 55.2
+  },
+  "1681b70e-4216-40dd-a2fc-b80ca83c7917": {
+    "stock": 27,
+    "category": "MID",
+    "price": 15.2
+  },
+  "33842fe2-2a9b-4907-abe9-302551414c88": {
+    "stock": 74,
+    "category": "MID",
+    "price": 14.4
+  },
+  "edb7d7ab-dbc3-4de5-bc9d-57cdd0481049": {
+    "stock": 74,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "c86b75c0-bc15-4500-9c00-0e77a4a24bfe": {
+    "stock": 78,
+    "category": "LOW",
+    "price": 6.7
+  },
+  "af98425a-11a5-48fd-b624-78ef7b6d0575": {
+    "stock": 4,
+    "category": "MID",
+    "price": 15.5
+  },
+  "ad5af8fc-cb25-4cf4-b9c1-926002a2a205": {
+    "stock": 7,
+    "category": "MID",
+    "price": 15.5
+  },
+  "085fe4f5-ade9-4c3d-a8ad-bfeba932cdd5": {
+    "stock": 23,
+    "category": "EXP",
+    "price": 60.6
+  },
+  "e739e3d3-72e6-4a6f-bdb9-64401478185b": {
+    "stock": 68,
+    "category": "MID",
+    "price": 15.4
+  },
+  "a3e91e88-3738-434c-9828-76126c54b86b": {
+    "stock": 22,
+    "category": "EXP",
+    "price": 64.1
+  },
+  "769b4bfd-ded7-4676-88fe-1d7176a6246f": {
+    "stock": 11,
+    "category": "MID",
+    "price": 14.4
+  },
+  "1bda6ea8-a754-46c2-863c-b863d594f2d4": {
+    "stock": 67,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "b98e94e9-a549-426a-93b8-6a529fe75b85": {
+    "stock": 47,
+    "category": "MID",
+    "price": 15.3
+  },
+  "986cb3e7-1516-433f-bf3f-93f49dda94f6": {
+    "stock": 65,
+    "category": "MID",
+    "price": 15.2
+  },
+  "8f1b3ed6-5ef3-4263-aa60-16f008645413": {
+    "stock": 3,
+    "category": "LOW",
+    "price": 6
+  },
+  "3d44f371-78b1-431b-8acb-20b1cbc76c46": {
+    "stock": 25,
+    "category": "EXP",
+    "price": 59.4
+  },
+  "acd3ffc9-70fe-406a-a253-25de3e241f7f": {
+    "stock": 75,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "caa78636-143b-4530-a5f0-412fedac3edc": {
+    "stock": 64,
+    "category": "EXP",
+    "price": 61.8
+  },
+  "9b555d05-5487-4a67-bc79-fc2fb85e7417": {
+    "stock": 62,
+    "category": "LOW",
+    "price": 5
+  },
+  "6d3b4117-5965-477c-a29e-b0808eb86994": {
+    "stock": 68,
+    "category": "MID",
+    "price": 13.1
+  },
+  "517984bf-0a92-4617-bb2e-7029e91cf33a": {
+    "stock": 31,
+    "category": "MID",
+    "price": 16.1
+  },
+  "5a0d7ee1-e1aa-4c3b-a977-73319264b369": {
+    "stock": 25,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "977aa226-808b-4ff3-9236-d2a83df09258": {
+    "stock": 50,
+    "category": "MID",
+    "price": 13.7
+  },
+  "305de20c-136f-4c9f-b903-e821abe3ef8d": {
+    "stock": 69,
+    "category": "MID",
+    "price": 15.8
+  },
+  "d4917a09-1079-46e8-a9e2-03eae9cdd4ef": {
+    "stock": 70,
+    "category": "MID",
+    "price": 13.8
+  },
+  "53199163-6a3a-47f3-97fb-1082d5508189": {
+    "stock": 36,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "b5e4436e-036c-4fb5-864e-cadfd424c3c8": {
+    "stock": 1,
+    "category": "EXP",
+    "price": 63.9
+  },
+  "2518d6ab-bbf6-4b71-b016-e5abcf05ced7": {
+    "stock": 55,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "13c4df92-54a3-4be0-93f9-a8c1f48533de": {
+    "stock": 15,
+    "category": "EXP",
+    "price": 63.9
+  },
+  "13c11bb9-2df7-42f9-b889-554f9827e591": {
+    "stock": 24,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "3c5bdcc2-1159-4e34-8ced-270b8b3c99a6": {
+    "stock": 40,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "73fa05b2-bf83-44a6-9075-248563fc569f": {
+    "stock": 8,
+    "category": "LOW",
+    "price": 4.1
+  },
+  "c2fe1d4b-af42-4a11-8c07-c1532c3c8a26": {
+    "stock": 24,
+    "category": "EXP",
+    "price": 62.5
+  },
+  "e49afca3-69ac-4615-a70f-2f04d044b75f": {
+    "stock": 47,
+    "category": "MID",
+    "price": 14.6
+  },
+  "0afa26c4-79d1-487a-b596-5a48efcda33b": {
+    "stock": 60,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "0eee78ee-2a32-4a80-b376-d31b2f047278": {
+    "stock": 41,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "18d0700d-6df6-496d-830e-c3a03cd308e6": {
+    "stock": 54,
+    "category": "MID",
+    "price": 15.5
+  },
+  "0db1e363-036c-40f5-9731-9c8085ac8c82": {
+    "stock": 20,
+    "category": "EXP",
+    "price": 57.5
+  },
+  "a8796ec1-5ee1-4035-9737-9f2ea4ff12ff": {
+    "stock": 9,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "c50c430b-fceb-42f8-872b-5e4d3586fb72": {
+    "stock": 42,
+    "category": "MID",
+    "price": 14.9
+  },
+  "c42ce751-3517-40ad-b45e-b758dd2547ae": {
+    "stock": 40,
+    "category": "MID",
+    "price": 13.7
+  },
+  "6bb38c70-78dc-4c50-8cb4-b9383663b95b": {
+    "stock": 61,
+    "category": "MID",
+    "price": 15.4
+  },
+  "34979ead-c8c2-4aff-88f5-be1a7758d15f": {
+    "stock": 79,
+    "category": "MID",
+    "price": 16.1
+  },
+  "c69c5948-4640-4e73-bb8c-42405b5b8461": {
+    "stock": 26,
+    "category": "EXP",
+    "price": 60.7
+  },
+  "b3020155-3314-41c3-9832-0df8d3bd066b": {
+    "stock": 60,
+    "category": "LOW",
+    "price": 4.3
+  },
+  "f6f951d1-803e-4249-94ff-f3a2fca0c8f4": {
+    "stock": 66,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "cadd545c-ddd3-4aea-97ce-715cb0031f1e": {
+    "stock": 15,
+    "category": "MID",
+    "price": 14.1
+  },
+  "b938caf8-1510-4f98-9e17-4b6198d9850a": {
+    "stock": 47,
+    "category": "MID",
+    "price": 15.1
+  },
+  "7a1c9fcb-55b0-415d-a4c5-334b4ab24283": {
+    "stock": 30,
+    "category": "MID",
+    "price": 12.7
+  },
+  "eb01ddd2-f5e3-4a86-a3ad-2216a1a791f4": {
+    "stock": 58,
+    "category": "MID",
+    "price": 15.6
+  },
+  "d0015a42-3ec3-4b4c-992f-858be1f62cbf": {
+    "stock": 35,
+    "category": "EXP",
+    "price": 60.1
+  },
+  "60f2fddf-ad6a-4120-8837-8412997a40bf": {
+    "stock": 17,
+    "category": "EXP",
+    "price": 60
+  },
+  "8873a307-ef53-49f6-bebd-9b08b525e141": {
+    "stock": 66,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "f0e2f152-a220-4ee7-bfa9-c68101f61458": {
+    "stock": 49,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "c0b71146-4835-4aed-ac73-facc4fa20d18": {
+    "stock": 10,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "3dcdc466-6024-431f-b273-5d2b74bfe9f4": {
+    "stock": 35,
+    "category": "MID",
+    "price": 17.3
+  },
+  "c3e275b6-95e0-45b9-9185-0a6de22e3b1b": {
+    "stock": 69,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "ee44d405-c290-402a-bbd1-8175ddddb087": {
+    "stock": 54,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "b13bbfe6-97ca-49c4-a2db-995b6e1eeab3": {
+    "stock": 76,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "d9ff4378-bcc9-4c05-8af6-3eba593b0791": {
+    "stock": 25,
+    "category": "MID",
+    "price": 14.4
+  },
+  "20cbebc7-82d4-447d-ab5f-35bb793e014d": {
+    "stock": 79,
+    "category": "EXP",
+    "price": 62.5
+  },
+  "914aaec7-1277-4842-be2e-e1888a65fd46": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "444a7c46-e3db-415d-9431-3796a8e9edb4": {
+    "stock": 70,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "bea8c13a-2b40-47f6-acdf-7d735274960f": {
+    "stock": 37,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "7b7ab66b-2fd5-477f-aefb-03ec1d2d28ab": {
+    "stock": 53,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "66c27a1b-670d-414e-8fdb-9052dc3e7437": {
+    "stock": 31,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "7432842d-53c0-4adb-a8b9-90720161bc44": {
+    "stock": 1,
+    "category": "MID",
+    "price": 16.3
+  },
+  "b8b838c0-b101-4c26-a8d5-dc186cfe9f78": {
+    "stock": 3,
+    "category": "EXP",
+    "price": 59.9
+  },
+  "f2447e89-dc9d-4299-a6bd-1d6786db3e89": {
+    "stock": 35,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "aa71b3d8-c6b2-4163-9b0f-182ec9894fa8": {
+    "stock": 45,
+    "category": "MID",
+    "price": 12.1
+  },
+  "0cec8bfa-26b2-4712-8141-7ff2afab3738": {
+    "stock": 37,
+    "category": "MID",
+    "price": 14.3
+  },
+  "63fe1af7-e503-429c-9473-5aef17ad32c0": {
+    "stock": 46,
+    "category": "MID",
+    "price": 16.8
+  },
+  "2d83bfe2-e4e7-41f5-afb9-39ae881c765c": {
+    "stock": 65,
+    "category": "LOW",
+    "price": 3.6
+  },
+  "374cc580-0525-495f-abe6-6c1234789a64": {
+    "stock": 8,
+    "category": "MID",
+    "price": 14.8
+  },
+  "b49268c0-267f-4567-82a3-d378d2107620": {
+    "stock": 2,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "01a82b90-89f8-48fb-b33a-037823df760d": {
+    "stock": 43,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "11af85f5-25c5-4e1c-ab35-28b32b73dc1e": {
+    "stock": 31,
+    "category": "MID",
+    "price": 15.9
+  },
+  "540912fc-2007-4e22-94d9-6faffab64fec": {
+    "stock": 36,
+    "category": "MID",
+    "price": 15.9
+  },
+  "c5f97d6a-485e-4435-ab2e-a7799d68103e": {
+    "stock": 43,
+    "category": "LOW",
+    "price": 4.1
+  },
+  "01ba39b5-dae3-493c-8082-a3eb48e08b4c": {
+    "stock": 20,
+    "category": "MID",
+    "price": 14.8
+  },
+  "bb65fdcf-d2b9-40a0-ada4-0e30009dbcfb": {
+    "stock": 58,
+    "category": "EXP",
+    "price": 60.1
+  },
+  "c80d6e11-f903-4388-a2a7-644bf3a2439a": {
+    "stock": 71,
+    "category": "LOW",
+    "price": 6
+  },
+  "cd8c0016-c38e-4211-a0b7-06896e1563f7": {
+    "stock": 23,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "bf3cb925-503a-49b7-b448-d0c03d9134f1": {
+    "stock": 32,
+    "category": "MID",
+    "price": 13.4
+  },
+  "8e14e4c9-d5fd-4ba3-b30e-d04d8d2b91ba": {
+    "stock": 76,
+    "category": "EXP",
+    "price": 63.3
+  },
+  "fe964913-1dfe-47c2-a6a4-527f3dc624cf": {
+    "stock": 24,
+    "category": "LOW",
+    "price": 4.1
+  },
+  "34f3690c-04c3-4412-8ede-f4aae3fbb9a2": {
+    "stock": 73,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "b9a4373d-2b93-48ab-baed-1cf18b4e7b91": {
+    "stock": 54,
+    "category": "EXP",
+    "price": 60.3
+  },
+  "72a06831-3fec-4a02-80b6-4aecff7f795b": {
+    "stock": 39,
+    "category": "EXP",
+    "price": 61.9
+  },
+  "aa2265fb-f98e-4e40-804e-2978077d87d5": {
+    "stock": 21,
+    "category": "EXP",
+    "price": 54.7
+  },
+  "0317575b-121d-4bd8-afc3-eb6a8932fcf0": {
+    "stock": 71,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "55f19b3c-41a7-4842-b80b-a93686f50e1e": {
+    "stock": 28,
+    "category": "MID",
+    "price": 16.3
+  },
+  "f0b8b70b-39d5-4005-8c14-8f209c396660": {
+    "stock": 16,
+    "category": "EXP",
+    "price": 53.4
+  },
+  "c1619fa2-18b8-4122-a195-5cb4f5fb8d7d": {
+    "stock": 75,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "526a20ac-ce29-4380-889a-b041b1c077ba": {
+    "stock": 50,
+    "category": "MID",
+    "price": 16
+  },
+  "2009e4c2-b6c0-4de5-9409-7387831d5f75": {
+    "stock": 28,
+    "category": "MID",
+    "price": 13.6
+  },
+  "c12a5388-2511-436a-85ac-64a7d81ae55d": {
+    "stock": 12,
+    "category": "EXP",
+    "price": 59
+  },
+  "4d11911d-2f8f-4d1c-b63d-4b1de0b639e6": {
+    "stock": 72,
+    "category": "MID",
+    "price": 14
+  },
+  "d3967f33-3476-4829-9b25-044a417d944a": {
+    "stock": 52,
+    "category": "MID",
+    "price": 15.2
+  },
+  "0c0dd073-3b9b-43d1-954d-1d839b117ffa": {
+    "stock": 60,
+    "category": "EXP",
+    "price": 61.7
+  },
+  "3aac25fe-ee58-457b-9a83-bb7560208249": {
+    "stock": 77,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "09b5f96e-a132-498b-bda2-0c7454db5b74": {
+    "stock": 33,
+    "category": "LOW",
+    "price": 7
+  },
+  "6f7d354a-bb4a-4769-8339-774df405aa29": {
+    "stock": 15,
+    "category": "MID",
+    "price": 14.9
+  },
+  "becf8f49-00fa-44f3-9b6c-d6c64f71bb94": {
+    "stock": 29,
+    "category": "EXP",
+    "price": 60.4
+  },
+  "80ce8353-279e-4cf4-800f-7bc3c3ce398e": {
+    "stock": 51,
+    "category": "MID",
+    "price": 15.3
+  },
+  "c5fe49fe-efca-4b2e-b633-accd137608fb": {
+    "stock": 56,
+    "category": "EXP",
+    "price": 62.8
+  },
+  "6d314239-02f4-4708-8dd5-239c170720ec": {
+    "stock": 46,
+    "category": "LOW",
+    "price": 5
+  },
+  "a29c6aea-5d67-47f3-aec3-da127ce6f632": {
+    "stock": 34,
+    "category": "MID",
+    "price": 15.6
+  },
+  "adb56fc6-d4d4-4c12-8ca8-e05d1e5c6f6a": {
+    "stock": 78,
+    "category": "MID",
+    "price": 15.7
+  },
+  "f28299e6-9035-499a-ae1d-5fb3162b2a49": {
+    "stock": 78,
+    "category": "MID",
+    "price": 15.3
+  },
+  "01eb0e26-cdf1-48ee-80aa-e528eae7f0bc": {
+    "stock": 13,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "9c70a24a-2ec2-41e4-b54f-635a1ab855b4": {
+    "stock": 2,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "7e1a0622-a334-46f2-ae8c-2b01e7a3b1d8": {
+    "stock": 13,
+    "category": "MID",
+    "price": 15.8
+  },
+  "dcaae254-8cac-4c80-9f28-053ea47bdd3b": {
+    "stock": 73,
+    "category": "LOW",
+    "price": 3.6
+  },
+  "80b09e2a-bc50-4d86-a587-9a4eac38618d": {
+    "stock": 22,
+    "category": "MID",
+    "price": 16
+  },
+  "0337622c-64d5-4009-b144-2fd75489a8d0": {
+    "stock": 67,
+    "category": "MID",
+    "price": 13.6
+  },
+  "edfc9588-758c-4cb8-b254-8ae8c8672fb3": {
+    "stock": 29,
+    "category": "MID",
+    "price": 16
+  },
+  "ab26e753-a863-4779-9ea5-ddb2c5257284": {
+    "stock": 37,
+    "category": "MID",
+    "price": 15.4
+  },
+  "0c9462ab-d1ed-4c05-8f2b-d0e6f2805da0": {
+    "stock": 51,
+    "category": "LOW",
+    "price": 3.8
+  },
+  "77051ed5-b9f7-4542-9786-9c4fec4d2198": {
+    "stock": 1,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "c9b2df4a-6adc-43bd-85a8-95b738261351": {
+    "stock": 41,
+    "category": "MID",
+    "price": 14.2
+  },
+  "c75e21b9-3d06-4bd6-863f-9f31b9e182dc": {
+    "stock": 11,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "89321bb6-5015-4ca1-98e5-1a889d912512": {
+    "stock": 4,
+    "category": "MID",
+    "price": 14.9
+  },
+  "96332155-bc17-4b8f-9ae7-6747ada7b0ea": {
+    "stock": 23,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "28be40f9-4926-4996-bbcd-d20d513ad79b": {
+    "stock": 29,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "4d47ea17-7566-4afb-8749-f371a5145420": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 6.2
+  },
+  "39df052c-ca10-4711-899d-7306579680fd": {
+    "stock": 64,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "97262327-e449-4642-9477-24efb041c5af": {
+    "stock": 32,
+    "category": "MID",
+    "price": 14.4
+  },
+  "f3cd4e18-2da9-4821-912e-5624dd521eb4": {
+    "stock": 53,
+    "category": "MID",
+    "price": 15.4
+  },
+  "1196296a-ae54-4dd7-b7a6-5b9583293b66": {
+    "stock": 77,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "71be21dd-8c6b-451f-8cb1-b69c2136deef": {
+    "stock": 42,
+    "category": "EXP",
+    "price": 61.8
+  },
+  "dab11e8c-bd05-451e-b21a-b8bc8abfe3e5": {
+    "stock": 75,
+    "category": "MID",
+    "price": 14.9
+  },
+  "6781e77f-ce90-4641-94b1-b07deada706c": {
+    "stock": 29,
+    "category": "EXP",
+    "price": 60.9
+  },
+  "42aaf689-1c18-4f5d-8923-61c81c828940": {
+    "stock": 36,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "b6e99e58-6ffb-4046-9432-4201a0a88d39": {
+    "stock": 20,
+    "category": "MID",
+    "price": 12.7
+  },
+  "9d9041fd-8cdb-49aa-a378-60ef2bcc2763": {
+    "stock": 1,
+    "category": "EXP",
+    "price": 58.3
+  },
+  "fd0976cb-44df-4f6c-b581-ff59a8c992ea": {
+    "stock": 46,
+    "category": "EXP",
+    "price": 58.5
+  },
+  "daef8d41-9e0c-46e2-9b74-966ed1569d2e": {
+    "stock": 28,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "be22d934-73ad-40e8-9678-9115afbbd0c2": {
+    "stock": 44,
+    "category": "LOW",
+    "price": 3
+  },
+  "57639c8f-4dfc-46d7-85ba-c96799bdeaa6": {
+    "stock": 15,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "7991dec9-b2a1-49c1-9437-6b85ffd45da0": {
+    "stock": 24,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "21b427f3-6683-4cca-9677-e619f4d7a6a4": {
+    "stock": 11,
+    "category": "MID",
+    "price": 15.8
+  },
+  "75f7050c-78aa-4a8c-b47c-3f963e506ad0": {
+    "stock": 34,
+    "category": "EXP",
+    "price": 59.9
+  },
+  "835abf82-0fa9-4efd-8912-d56594bdfc69": {
+    "stock": 47,
+    "category": "MID",
+    "price": 13.7
+  },
+  "d0739fe2-dda7-4742-b581-12dff506934d": {
+    "stock": 54,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "30d55e20-ea43-4b51-8953-a81ebf2bdb85": {
+    "stock": 4,
+    "category": "MID",
+    "price": 13.4
+  },
+  "42503fa5-1a47-40ba-823f-78ae1e36aef6": {
+    "stock": 33,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "759d49d3-0067-4d1d-a34f-29234493f70e": {
+    "stock": 36,
+    "category": "MID",
+    "price": 15.8
+  },
+  "4a4709f2-3b15-4c8c-a0bb-c2f82e14cf9b": {
+    "stock": 58,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "20df6999-9844-4263-8576-8a99a6577388": {
+    "stock": 24,
+    "category": "MID",
+    "price": 14.4
+  },
+  "5855d1c5-c4f3-4f3a-a0e3-8db823c79eaa": {
+    "stock": 31,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "52c32dd9-f010-46e0-9462-b5f48e30d262": {
+    "stock": 74,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "05ec1a27-7ba1-4432-9237-b2fa99b537e8": {
+    "stock": 66,
+    "category": "MID",
+    "price": 16
+  },
+  "e0f58e62-636e-418c-845e-8c5056eedd6b": {
+    "stock": 22,
+    "category": "EXP",
+    "price": 56.6
+  },
+  "a4c32e96-6807-4fbf-be75-1455f5582f8a": {
+    "stock": 53,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "1b45fc54-c947-41c4-b2bb-63c1ca8ed208": {
+    "stock": 30,
+    "category": "MID",
+    "price": 16
+  },
+  "6bfdcadc-827f-4394-b107-510330c500a7": {
+    "stock": 2,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "07b2afc9-b5b4-46a8-8d86-7870884e6238": {
+    "stock": 0,
+    "category": "EXP",
+    "price": 59.3
+  },
+  "7595baf4-58dc-494d-ba3a-52bc84d75ee8": {
+    "stock": 66,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "2e29d027-61fe-4eec-9854-886240508f46": {
+    "stock": 60,
+    "category": "MID",
+    "price": 16.1
+  },
+  "66eb3b8e-4a58-4393-8f74-c25f7fe2abbc": {
+    "stock": 44,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "8c35e715-eaa6-4509-8aac-c1a0fc511b09": {
+    "stock": 12,
+    "category": "EXP",
+    "price": 56.9
+  },
+  "38a694f8-3e28-400f-8f26-c5ef1c0860cc": {
+    "stock": 17,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "8df603eb-c10a-4880-a0b5-ee9d8d1c1996": {
+    "stock": 10,
+    "category": "EXP",
+    "price": 61.6
+  },
+  "14109943-8f2f-416d-95a5-1f9f3bea73b2": {
+    "stock": 33,
+    "category": "MID",
+    "price": 14.8
+  },
+  "cd6b65fe-fb9a-4624-b5a4-85ad401b45aa": {
+    "stock": 8,
+    "category": "MID",
+    "price": 14.2
+  },
+  "ceb8cdae-cf49-4c83-9c82-4a4deea6e10a": {
+    "stock": 20,
+    "category": "MID",
+    "price": 14
+  },
+  "d5492f4a-1080-4d55-8ade-bb04a7010c1b": {
+    "stock": 25,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "3215887c-e202-4da0-984a-a033d2d64a7e": {
+    "stock": 61,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "21f28c1d-1033-41dd-a288-4d66be7bec4d": {
+    "stock": 36,
+    "category": "MID",
+    "price": 15
+  },
+  "489de561-afcc-4646-8840-148c2ff78916": {
+    "stock": 5,
+    "category": "LOW",
+    "price": 2.7
+  },
+  "1684b552-5358-46ee-b54d-e53704e85c18": {
+    "stock": 18,
+    "category": "EXP",
+    "price": 58.7
+  },
+  "2c61171e-8904-4131-a29b-4887b61bd44f": {
+    "stock": 10,
+    "category": "LOW",
+    "price": 5
+  },
+  "cf0c8d09-82cb-46ca-a410-e574d009436b": {
+    "stock": 78,
+    "category": "EXP",
+    "price": 57.1
+  },
+  "e121e365-bb34-454b-835a-b87133aff572": {
+    "stock": 17,
+    "category": "LOW",
+    "price": 6.2
+  },
+  "22cd5ee9-8d11-4c75-b555-5f376478085f": {
+    "stock": 57,
+    "category": "MID",
+    "price": 15.8
+  },
+  "fcdcb071-8f8b-4e7e-bd0a-c15b4b530c47": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "183aed05-6ca3-4886-80f6-79704e9b3089": {
+    "stock": 28,
+    "category": "MID",
+    "price": 13.5
+  },
+  "1fb2b427-fc54-4ab3-aa6d-3779eea18547": {
+    "stock": 75,
+    "category": "LOW",
+    "price": 4.7
+  },
+  "d02382e2-0830-4e70-88ba-570f60853914": {
+    "stock": 28,
+    "category": "MID",
+    "price": 15.6
+  },
+  "94958adb-8293-496e-83f9-025fb6177eab": {
+    "stock": 9,
+    "category": "EXP",
+    "price": 54.3
+  },
+  "17ea45f7-080d-47fb-bba3-fb619a20aef0": {
+    "stock": 51,
+    "category": "MID",
+    "price": 16.2
+  },
+  "ff34f0bb-84f7-44f3-a2d8-1560bc4de350": {
+    "stock": 18,
+    "category": "LOW",
+    "price": 5.6
+  },
+  "a1b787fe-0aca-40a5-9bc1-e0ec1e6747f4": {
+    "stock": 39,
+    "category": "EXP",
+    "price": 58.6
+  },
+  "3c5041f0-5ae7-4179-adda-e02186bf399a": {
+    "stock": 43,
+    "category": "MID",
+    "price": 13.8
+  },
+  "1e585ce2-0932-4f02-867d-0481e0af2309": {
+    "stock": 38,
+    "category": "MID",
+    "price": 14.5
+  },
+  "0a4fa5e0-c086-4237-98fc-3cb4ee4fc9fc": {
+    "stock": 14,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "c5f82d99-dee7-4a44-abc9-86f3438d858f": {
+    "stock": 42,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "add4390c-e7af-453a-9c78-39d8c5763863": {
+    "stock": 67,
+    "category": "MID",
+    "price": 14.1
+  },
+  "1ac612c4-b7b8-46a6-884a-9c47de713d2a": {
+    "stock": 20,
+    "category": "LOW",
+    "price": 5
+  },
+  "a86e2674-7acd-44fd-b57e-2e59ef6b515a": {
+    "stock": 65,
+    "category": "MID",
+    "price": 16.1
+  },
+  "8dc40369-4f31-4e1d-9095-5c8aae918e62": {
+    "stock": 57,
+    "category": "MID",
+    "price": 14.1
+  },
+  "5b54648d-2804-459a-aaa7-582a043ead08": {
+    "stock": 49,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "9a81f435-e673-4555-8476-d9f206aabaf2": {
+    "stock": 25,
+    "category": "EXP",
+    "price": 57.2
+  },
+  "bfa1c61b-f467-4d03-880d-d766e1c2e069": {
+    "stock": 16,
+    "category": "MID",
+    "price": 15.3
+  },
+  "d0741b41-08d0-4c24-a2bb-49c05723c88c": {
+    "stock": 4,
+    "category": "LOW",
+    "price": 5
+  },
+  "f2ae572f-a0d1-469c-9d6f-5c20b87b74c9": {
+    "stock": 17,
+    "category": "MID",
+    "price": 15.4
+  },
+  "23b1e497-deff-4730-bcca-6876f3ea48f7": {
+    "stock": 79,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "5bbfc73e-3c16-4dc7-afcb-065a075223fd": {
+    "stock": 11,
+    "category": "LOW",
+    "price": 5
+  },
+  "02acbebc-4e7a-4c3a-9922-8f6a30549dba": {
+    "stock": 33,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "60e3d8d4-5795-4b52-9d67-0c0e23b3981d": {
+    "stock": 1,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "2559c787-23e7-4874-93e2-d02dac186d79": {
+    "stock": 53,
+    "category": "LOW",
+    "price": 6.1
+  },
+  "266f903d-2459-4a8a-b044-53d41685cf14": {
+    "stock": 78,
+    "category": "MID",
+    "price": 14.7
+  },
+  "17bee70b-0721-4428-aab5-1e86e889f33e": {
+    "stock": 15,
+    "category": "EXP",
+    "price": 60.9
+  },
+  "bdfcc7f7-d5ea-4e8c-b8a2-59eaf541208a": {
+    "stock": 14,
+    "category": "MID",
+    "price": 15.5
+  },
+  "34de1769-4929-4262-84d7-9673f1dcce8e": {
+    "stock": 9,
+    "category": "MID",
+    "price": 15.8
+  },
+  "73e0933f-c83b-40f1-b1ff-14423be2687b": {
+    "stock": 17,
+    "category": "LOW",
+    "price": 2.5
+  },
+  "bc95f13f-4da8-49b9-88d9-2ac22c8d10d5": {
+    "stock": 25,
+    "category": "LOW",
+    "price": 4.8
+  },
+  "8a0ffb93-c40a-4ead-a1f2-0963b0be014a": {
+    "stock": 79,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "f82668c0-feaf-4055-9eef-aba7bd28c4da": {
+    "stock": 10,
+    "category": "MID",
+    "price": 14.4
+  },
+  "0360552a-b008-4fd7-9853-5d17a17fce4f": {
+    "stock": 34,
+    "category": "LOW",
+    "price": 3.4
+  },
+  "40870ed5-07a2-4459-9fad-d6e9bb1db21b": {
+    "stock": 72,
+    "category": "LOW",
+    "price": 6.3
+  },
+  "da4d6cb2-cefb-458e-8204-8c4fba92a48f": {
+    "stock": 16,
+    "category": "LOW",
+    "price": 5
+  },
+  "97808b12-eb1f-478b-9b9a-47b9eaf04468": {
+    "stock": 58,
+    "category": "LOW",
+    "price": 5.4
+  },
+  "297ce6d3-985d-43ff-a5df-29b9cb1b19c1": {
+    "stock": 79,
+    "category": "MID",
+    "price": 16.4
+  },
+  "1ac1d3ff-c9e3-4b07-a92c-6a420ba224de": {
+    "stock": 7,
+    "category": "MID",
+    "price": 14.8
+  },
+  "a4ceac82-cf4f-4d4e-b9a3-624c1d9a74da": {
+    "stock": 16,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "d2809255-9798-4eee-8079-62ed17d4d132": {
+    "stock": 23,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "b2fb7a6f-a0e6-403f-97bf-3b97a03c0436": {
+    "stock": 69,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "e88691ce-6d49-4efa-960d-65d271fbc7fe": {
+    "stock": 45,
+    "category": "MID",
+    "price": 15.5
+  },
+  "6054cbe7-b210-4694-961f-34b8d2b7b6d8": {
+    "stock": 59,
+    "category": "MID",
+    "price": 16.4
+  },
+  "ac171c80-f755-4b44-8c78-edf69bcf74aa": {
+    "stock": 34,
+    "category": "MID",
+    "price": 15.5
+  },
+  "23361528-8426-4eb9-9a98-432916302ee4": {
+    "stock": 74,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "2d336fdc-d4c5-4faf-8a80-5fed3f2d4a5f": {
+    "stock": 68,
+    "category": "LOW",
+    "price": 6
+  },
+  "38aaf666-8b94-47e0-bd40-f3ace5c3febc": {
+    "stock": 79,
+    "category": "MID",
+    "price": 16.3
+  },
+  "6369212b-1723-408c-bd0e-bedf25c3ae8d": {
+    "stock": 21,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "b988d0ad-a45e-40c2-944b-c66593fb2aa4": {
+    "stock": 59,
+    "category": "MID",
+    "price": 14.2
+  },
+  "d589148a-31ef-4ba4-8fac-5eec93e0d03e": {
+    "stock": 43,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "b25cd48f-14a6-421c-ba1e-08823cc5a5b5": {
+    "stock": 71,
+    "category": "EXP",
+    "price": 62.4
+  },
+  "4ff6ecf2-536a-43fe-a0c5-c95f3c6f3f99": {
+    "stock": 54,
+    "category": "EXP",
+    "price": 59.6
+  },
+  "bb41ee2d-ab56-4626-9b19-d7b54fb1add4": {
+    "stock": 20,
+    "category": "EXP",
+    "price": 58.5
+  },
+  "8b8ee739-0d31-4a0a-bc37-22560212d5d3": {
+    "stock": 30,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "f0ac6811-29a3-490e-a5bc-4dc2fc0fea1a": {
+    "stock": 31,
+    "category": "EXP",
+    "price": 59.2
+  },
+  "ed1a13f7-cf5d-401f-922d-48b4fb880a3a": {
+    "stock": 21,
+    "category": "MID",
+    "price": 14.6
+  },
+  "e4c894a0-4f74-49a6-878b-f3cab32b3df2": {
+    "stock": 11,
+    "category": "MID",
+    "price": 15.1
+  },
+  "7628f444-20ab-4f0a-9949-ec73665ef706": {
+    "stock": 79,
+    "category": "LOW",
+    "price": 4.2
+  },
+  "0138544c-9aae-47ef-b627-4779d713726c": {
+    "stock": 45,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "044ee3b4-427e-478c-9c4d-ccf1446b3bc7": {
+    "stock": 70,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "d8aa3e81-ead7-4160-9aad-7dd342f9db41": {
+    "stock": 46,
+    "category": "EXP",
+    "price": 60
+  },
+  "ff6b3c72-9cfd-4adf-8560-35d224588872": {
+    "stock": 6,
+    "category": "MID",
+    "price": 15.6
+  },
+  "469f2a50-38bb-4baf-8134-503b97376016": {
+    "stock": 42,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "032f0aac-8f41-4b15-bf61-7f8f23428caf": {
+    "stock": 12,
+    "category": "MID",
+    "price": 15.2
+  },
+  "95b05445-ba3f-478c-aca4-c3cd893582aa": {
+    "stock": 59,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "9d5e15c6-ced9-43a2-84af-685c2275bdbc": {
+    "stock": 34,
+    "category": "MID",
+    "price": 13.1
+  },
+  "3dc44fc1-f030-4451-aa6f-785d82b274fc": {
+    "stock": 55,
+    "category": "MID",
+    "price": 14.4
+  },
+  "9eb77437-d2e3-43f3-88d1-6b53b9da81d1": {
+    "stock": 28,
+    "category": "MID",
+    "price": 15.5
+  },
+  "064a0117-f122-4346-afa4-6992333ddb9a": {
+    "stock": 14,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "b8caa70d-c82e-4e89-8517-e7de5a43ed5d": {
+    "stock": 79,
+    "category": "LOW",
+    "price": 5.7
+  },
+  "874b4d91-354b-4447-b858-1998c92bd0c4": {
+    "stock": 25,
+    "category": "EXP",
+    "price": 62.2
+  },
+  "be147222-009d-446f-b4d2-ee0e80d3131c": {
+    "stock": 4,
+    "category": "EXP",
+    "price": 59.9
+  },
+  "e065988b-151c-436f-a080-43943f49754b": {
+    "stock": 22,
+    "category": "EXP",
+    "price": 60
+  },
+  "9a9727d1-071e-4375-8ed4-c41dda63497b": {
+    "stock": 72,
+    "category": "MID",
+    "price": 13.4
+  },
+  "01f7eede-42f6-4ab5-a6ad-8688f85a745b": {
+    "stock": 25,
+    "category": "EXP",
+    "price": 63.4
+  },
+  "17f53b24-f19f-46b4-9fa7-a7dcbdf35096": {
+    "stock": 23,
+    "category": "EXP",
+    "price": 60.5
+  },
+  "d44f9186-dfc9-4ba4-b82c-f97103d9b6e6": {
+    "stock": 57,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "3a282d98-bba8-44da-86c7-4584db325702": {
+    "stock": 62,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "8c3edbce-e369-4b3a-abe1-ea00e962a4fa": {
+    "stock": 38,
+    "category": "EXP",
+    "price": 57.9
+  },
+  "77c238fd-7f5a-45c5-a4e4-a33b86fbc847": {
+    "stock": 44,
+    "category": "MID",
+    "price": 15.4
+  },
+  "3fdc21bb-9b0c-42fe-94ec-bea663dea0d9": {
+    "stock": 28,
+    "category": "MID",
+    "price": 15.2
+  },
+  "84cf5ff8-188d-427f-8cdd-36e00d237feb": {
+    "stock": 78,
+    "category": "EXP",
+    "price": 59.5
+  },
+  "07c86ae6-0a19-408b-8d7e-8d20c89c5ae5": {
+    "stock": 66,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "4820a294-afaa-4e31-b3da-4b10ee1be061": {
+    "stock": 37,
+    "category": "LOW",
+    "price": 4.6
+  },
+  "4ea4ff37-ef52-4160-ba9b-24d5084aa835": {
+    "stock": 48,
+    "category": "MID",
+    "price": 13.9
+  },
+  "29ff61e9-08c7-4931-8ffd-1443dfc5b85a": {
+    "stock": 45,
+    "category": "MID",
+    "price": 13.1
+  },
+  "b8cb6ffa-6cf8-413e-a60b-2a3e17a0542c": {
+    "stock": 74,
+    "category": "MID",
+    "price": 14.8
+  },
+  "4929a041-7385-4a03-aa9b-9453f15fab2a": {
+    "stock": 37,
+    "category": "LOW",
+    "price": 5.8
+  },
+  "6402eb91-517f-452d-9290-35241e16d430": {
+    "stock": 70,
+    "category": "MID",
+    "price": 14.8
+  },
+  "2db8d7bb-3486-4368-9d6a-a91fb40373bc": {
+    "stock": 4,
+    "category": "LOW",
+    "price": 4.9
+  },
+  "3293e46b-2def-4283-bd1b-1a7103677654": {
+    "stock": 35,
+    "category": "MID",
+    "price": 17.4
+  },
+  "4eed5ccb-cf33-424e-a2be-c7f43ffd8fd0": {
+    "stock": 6,
+    "category": "LOW",
+    "price": 5.5
+  },
+  "0429269c-b298-455c-8d02-bf534f040e0c": {
+    "stock": 22,
+    "category": "EXP",
+    "price": 59.5
+  },
+  "36d3fbae-1f4c-4e18-a210-0f826ac0e494": {
+    "stock": 57,
+    "category": "MID",
+    "price": 17.6
+  },
+  "d8431d94-0973-4e84-b351-d75d74909aae": {
+    "stock": 69,
+    "category": "LOW",
+    "price": 6.7
+  },
+  "024bfab2-6c91-4687-88c4-2cac7df6bfc3": {
+    "stock": 67,
+    "category": "MID",
+    "price": 14.5
+  },
+  "dfff2600-791a-4354-8e1b-5b5f87b6b190": {
+    "stock": 77,
+    "category": "MID",
+    "price": 13.8
+  },
+  "0e63e3c5-ef72-4b1d-b9b8-463a39497dd4": {
+    "stock": 23,
+    "category": "EXP",
+    "price": 61.1
+  },
+  "73480522-ca68-4a70-a828-0d3946b42000": {
+    "stock": 40,
+    "category": "MID",
+    "price": 13.9
+  },
+  "51023d82-7e25-427f-8a60-5acde3414974": {
+    "stock": 18,
+    "category": "MID",
+    "price": 16.3
+  },
+  "613ea028-4286-450e-b37b-b9094ce79d4d": {
+    "stock": 33,
+    "category": "EXP",
+    "price": 61.7
+  },
+  "10c44aa9-6359-4e1a-8292-a927352b142b": {
+    "stock": 73,
+    "category": "LOW",
+    "price": 5.9
+  },
+  "8c0d16cc-006f-4466-9108-fafff28db049": {
+    "stock": 74,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "33d654d5-6ec4-48cd-82a6-e64f15550a66": {
+    "stock": 16,
+    "category": "MID",
+    "price": 16.4
+  },
+  "0f5b8211-382e-4250-b7e1-0d2ca74b0fe4": {
+    "stock": 57,
+    "category": "MID",
+    "price": 14.5
+  },
+  "6f8822df-c08a-47e0-bf54-c1f4c744e72e": {
+    "stock": 39,
+    "category": "MID",
+    "price": 14.7
+  },
+  "d100bc1f-b747-4b3a-a1de-3d646cb74d2d": {
+    "stock": 79,
+    "category": "MID",
+    "price": 14.2
+  },
+  "71684273-bddb-4c6d-8262-65a51f62ba94": {
+    "stock": 71,
+    "category": "LOW",
+    "price": 4.1
+  },
+  "2c0ca739-866a-47b1-8761-7a4afc3962a4": {
+    "stock": 14,
+    "category": "EXP",
+    "price": 63.1
+  },
+  "14ea07d8-a4ab-46b1-9584-27a1c17e9103": {
+    "stock": 8,
+    "category": "EXP",
+    "price": 62.4
+  },
+  "19008a1f-b27a-4e0f-ae83-d36084cc49db": {
+    "stock": 35,
+    "category": "MID",
+    "price": 15.4
+  },
+  "b0c0490a-4451-4bf4-9b23-e84a31a360c9": {
+    "stock": 28,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "dee23882-8039-4fa4-9f8b-a4318bda9975": {
+    "stock": 20,
+    "category": "LOW",
+    "price": 5.1
+  },
+  "eeb11f3c-5143-42fa-927b-a53ad86a1d8b": {
+    "stock": 3,
+    "category": "MID",
+    "price": 15
+  },
+  "5ae16bce-0411-4f80-868b-4028e4883a37": {
+    "stock": 5,
+    "category": "LOW",
+    "price": 4.4
+  },
+  "89b21f8f-909c-41d8-8748-a9c5d705c34c": {
+    "stock": 29,
+    "category": "EXP",
+    "price": 60.6
+  },
+  "bd87fb27-532a-4683-93f5-f5fd00a023a0": {
+    "stock": 68,
+    "category": "LOW",
+    "price": 5.3
+  },
+  "32ef7c4f-dbd0-4f53-93fb-a96ad6358345": {
+    "stock": 6,
+    "category": "MID",
+    "price": 16.5
+  },
+  "8d2d2f1e-4594-40b5-9d68-5f374618e9f9": {
+    "stock": 59,
+    "category": "LOW",
+    "price": 4.5
+  },
+  "6f6f3f2f-17c7-49dc-a81f-55f93ace3eb4": {
+    "stock": 50,
+    "category": "MID",
+    "price": 14.2
+  },
+  "5c2907c7-8a3e-4437-827f-eb09decaf3c6": {
+    "stock": 46,
+    "category": "MID",
+    "price": 15.3
+  },
+  "cff3bcf6-0213-45c6-9958-50aae1f8f40a": {
+    "stock": 54,
+    "category": "LOW",
+    "price": 5.2
+  },
+  "66076b93-43b8-47e0-b568-ee05ce2c34cb": {
+    "stock": 46,
+    "category": "LOW",
+    "price": 5.5
+  }
 }

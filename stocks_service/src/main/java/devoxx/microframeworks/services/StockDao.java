@@ -18,13 +18,13 @@ public enum StockDao {
 
     private static Logger LOG = LoggerFactory.getLogger(StockDao.class);
 
-    private static Map<String, Integer> allStocks;
+    private static Map<String, Stock> allStocks;
 
     static {
         try (Reader reader = new InputStreamReader(StockDao.class.getResourceAsStream("/stocks.json"))) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
-            allStocks = GSON.fromJson(reader, new TypeToken<Map<String, Integer>>() {
+            allStocks = GSON.fromJson(reader, new TypeToken<Map<String, Stock>>() {
             }.getType());
 
             LOG.info("Parse wines stocks database :{} wines stocks read.", allStocks.keySet().size());
@@ -34,25 +34,24 @@ public enum StockDao {
         }
     }
 
-    public Map<String, Integer> findAll() {
+    public Map<String, Stock> findAll() {
         return allStocks;
     }
 
-    public Integer findById(String wid) {
+    public Stock findById(String wid) {
         return Optional.ofNullable(allStocks.get(wid))
                 .orElseThrow(() -> new NoSuchElementException("Wine not found : " + wid));
     }
 
-    public void order(String wid, String qty) {
-        Integer stock = findById(wid);
-
+    public synchronized void order(String wid, String qty) {
+        Stock stock = findById(wid);
         int q = Integer.parseInt(qty);
         if (q < 0) {
             throw new IllegalArgumentException("Invalid quantity");
         }
-        if (stock < q) {
+        if (stock.getStock() < q) {
             throw new IllegalArgumentException("Not enough stock");
         }
-        allStocks.put(wid, stock - q);
+        stock.setStock(stock.getStock() - q);
     }
 }
