@@ -38,7 +38,7 @@
         views: {
           'body@main': {
             controller: 'CatalogController as vm',
-            templateUrl: 'app/routes/main/catalog/catalog.list.html'
+            templateUrl: 'app/routes/main/catalog/catalog.html'
           }
         }
       })

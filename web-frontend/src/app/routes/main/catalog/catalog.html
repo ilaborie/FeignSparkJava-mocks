@@ -1,0 +1,34 @@
+<div class="catalog">
+  <header>
+    <h1>Catalog</h1>
+    <form class="form-inline">
+      <div class="form-group">
+        <div class="input-group">
+          <input ng-model="vm.query" type="text" class="form-control" placeholder="Search..."
+                 ng-model-options="{ debounce: 250 }" ng-change="vm.search()">
+          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+        </div>
+      </div>
+    </form>
+  </header>
+
+  <section class="search-matches">
+    <ul class="search-result">
+      <li ng-repeat="wine in vm.wines" class="active" ng-class="{'active': wine.id === vm.wine.id}">
+        <h3 ng-click="vm.select(wine.id)">
+          <span class="appellation">{{wine.appellation}}</span>
+          <span class="millesime">{{wine.millesime}}</span>
+        </h3>
+        <div class="text-muted">{{wine.produit}}</div>
+        <div class="actions">
+          <a ui-sref="wine({wid: wine.id})" class="btn btn-secondary-outline btn-sm">Detail</a>
+        </div>
+      </li>
+    </ul>
+    <div class="detail">
+      <wine-detail wine="vm.wine"></wine-detail>
+    </div>
+  </section>
+
+  <!--<pre>{{vm|json}}</pre>-->
+</div>

@@ -1,3 +1,28 @@
-<div class="container">
-  <h1>Wine</h1>
+<div class="detail">
+  <wine-detail wine="vm.wine"></wine-detail>
+  <hr>
+  <div class="comments">
+    <form ng-submit="vm.addComment()">
+      <header>
+        <h2>Comments</h2>
+      </header>
+      <article ng-repeat="comment in vm.wine.comments" class="comment">
+        <blockquote class="blockquote">
+          <p class="m-b-0">{{comment.message}}</p>
+          <footer class="blockquote-footer">
+            <span class="date">{{comment.date |date}}</span>,
+            <abbr title="{{comment.email}}">{{comment.author}}</abbr>
+          </footer>
+        </blockquote>
+      </article>
+      <hr>
+      <textarea class="form-control" ng-model="vm.comment" rows="3" placeholder="Add a comment ..."></textarea>
+      <div class="actions">
+        <button type="submit" class="btn btn-primary" ng-disabled="!vm.comment">
+          <i class="fa fa-comment"></i>
+          Add comment
+        </button>
+      </div>
+    </form>
+  </div>
 </div>

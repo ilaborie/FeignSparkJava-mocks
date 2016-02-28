@@ -25,5 +25,13 @@
           return response.data;
         });
     };
+
+    this.addComment = function(message) {
+      $log.info('Add comment', message);
+      return $http.post('comment', message)  // FIXME
+        .then(function (response) {
+          return response.data;
+        });
+    }
   }
 })();

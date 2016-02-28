@@ -1,0 +1,79 @@
+<div class="wine detail">
+
+  <h3 ui-sref="wine({wid:wine.id})">
+    <span class="appellation">{{wine.wine.appellation}}</span>
+    -
+    <span class="millesime">{{wine.wine.millesime}}</span>
+          <span class="label label-pill {{wine.wine.couleur | cssClass}}">
+            {{wine.wine.region}} - {{wine.wine.couleur}}
+          </span>
+  </h3>
+  <h4 class="text-muted">{{wine.wine.produit}}</h4>
+
+  <div class="actions">
+    <a class="btn btn-danger-outline " ng-click="vm.buy(stock.wine.id)">
+      <i class="fa fa-cart-plus"></i> Buy
+    </a>
+  </div>
+
+  <div class="info">
+    <img ng-src="http://localhost:8090/images/{{wine.wine.image}}" class="wine-img"
+         alt="{{wine.wine.produit}}">
+    <ul class="characteristics">
+      <li ng-show="wine.wine.cepageDominant">
+        <span class="lbl">Cépage</span>
+        <span class="value">{{wine.wine.cepageDominant}}</span>
+      </li>
+      <li ng-show="wine.wine.alcool">
+        <span class="lbl">Alcool</span>
+        <span class="value">{{wine.wine.alcool}}</span>
+      </li>
+      <li ng-show="wine.wine.temperatureDeService">
+        <span class="lbl">Température de service</span>
+        <span class="value">{{wine.wine.temperatureDeService}}</span>
+      </li>
+      <li>&nbsp;</li>
+      <!-- Conservation -->
+      <li ng-show="wine.wine.conservation">
+        <span class="lbl">Conservation</span>
+        <span class="value">{{wine.wine.conservation}}</span>
+      </li>
+      <li ng-show="wine.wine.aBoireAPartirDe">
+        <span class="lbl">A boire à partir de</span>
+        <span class="value">{{wine.wine.aBoireAPartirDe}}</span>
+      </li>
+      <li ng-show="wine.wine.garderJusquA">
+        <span class="lbl">Garder jusqu'en</span>
+        <span class="value">{{wine.wine.garderJusquA}}</span>
+      </li>
+      <!-- Gout -->
+      <li>&nbsp;</li>
+      <li ng-show="wine.wine.aOeil">
+        <span class="lbl">A l'oeil</span>
+        <span class="value">{{wine.wine.aOeil}}</span>
+      </li>
+      <li ng-show="wine.wine.auNez">
+        <span class="lbl">Au nez</span>
+        <span class="value">{{wine.wine.auNez}}</span>
+      </li>
+      <li ng-show="wine.wine.enBouche">
+        <span class="lbl">En Bouche</span>
+        <span class="value">{{wine.wine.enBouche}}</span>
+      </li>
+      <li>&nbsp;</li>
+      <!-- Accords -->
+      <li ng-show="wine.wine.accordsMetsVin">
+        <span class="lbl">Accords mets-vin</span>
+        <span class="value">{{wine.wine.accordsMetsVin}}</span>
+      </li>
+      <li ng-show="wine.wine.accordsRecommandes">
+        <span class="lbl">Accords recommandés</span>
+        <span class="value">{{wine.wine.accordsRecommandes}}</span>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <!--<pre>{{wine|json}}</pre>-->
+<!--</div>-->

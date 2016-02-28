@@ -39,7 +39,7 @@
       $log.info('Clear cart');
       var idx = cart.indexOf(stock);
       if (idx >= 0) {
-        cart.splice(idx, 1);;
+        cart.splice(idx, 1);
       }
     };
 

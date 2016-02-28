@@ -1,0 +1,56 @@
+.catalog {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    h1 {
+      display: inline;
+      margin-right: 1em;
+    }
+    form {
+      display: inline;
+    }
+  }
+
+  .search-matches {
+    display: flex;
+
+    .search-result {
+      flex: 0 1 auto;
+      min-width: 40vw;
+      padding: 0;
+      max-height: 80vh;
+      overflow-y: scroll;
+      li {
+        margin: 0.25rem;
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        background: @bgWhite;
+        list-style: none;
+
+        &.active {
+          border: thin solid @bgGray;
+          box-shadow: 0.125rem 0.125rem 0.5rem fade(@bgGray, 50%);
+        }
+
+        h3 {
+          font-size: 1.25rem;
+          cursor: pointer;
+          .millesime {
+            float: right;
+          }
+        }
+        h4 {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    .detail {
+      flex: 0 1 auto;
+      margin: 0.25rem;
+      max-height: 80vh;
+      overflow-y: scroll;
+    }
+  }
+}

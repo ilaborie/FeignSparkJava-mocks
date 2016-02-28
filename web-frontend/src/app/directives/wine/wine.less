@@ -1,0 +1,28 @@
+.wine.detail {
+  h3 {
+    cursor: pointer;
+    .label {
+      float: right;
+    }
+  }
+  .wine-img {
+    max-height: 16rem;
+    max-width: 16rem;
+  }
+
+  .info {
+    display: flex;
+    .characteristics {
+      padding: 0;
+      .lbl {
+        font-weight: bold;
+        &:after {
+          content: ':';
+        }
+      }
+      li {
+        list-style: none;
+      }
+    }
+  }
+}

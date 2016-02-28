@@ -11,16 +11,29 @@
     vm.query = null;
     vm.wines = [];
     vm.wine = null;
+    vm.comment = null;
 
     vm.search = function () {
       wineSrv.search(vm.query)
         .then(function (wines) {
           vm.wines = wines;
-          vm.wine = vm.wines[0];
+          vm.select(wines[0].id);
         })
         .catch(function (error) {
           toastr.error('Oops !', error.data);
         });
-    }
+    };
+    vm.search();
+
+    vm.select = function (wid) {
+      wineSrv.findById(wid)
+        .then(function (wine) {
+          vm.wine = wine;
+        })
+        .catch(function (error) {
+          toastr.error('Oops !', error.data);
+        });
+    };
+
   }
 })();
