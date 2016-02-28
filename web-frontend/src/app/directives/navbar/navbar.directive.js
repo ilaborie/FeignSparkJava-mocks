@@ -17,10 +17,11 @@
     };
 
     /** @ngInject */
-    function NavbarController(loginSrv) {
+    function NavbarController($rootScope,loginSrv) {
       var vm = this;
       vm.user = loginSrv.getUser();
       vm.signOut = loginSrv.logout;
+      vm.cart = $rootScope.shared.cart;
     }
   }
 })();

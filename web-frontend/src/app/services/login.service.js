@@ -6,8 +6,7 @@
     .service('loginSrv', LoginService);
 
   /** @ngInject */
-  function LoginService($http, $state) {
-    var storage = localStorage;
+  function LoginService($http, $state, storage) {
 
     this.login = function (user) {
       //return $http.post('login', user) // FIXME

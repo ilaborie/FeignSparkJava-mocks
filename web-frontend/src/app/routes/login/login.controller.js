@@ -20,7 +20,6 @@
         .then(function () {
           $state.go('cellar');
         })
-
         .catch(function () {
           vm.error = "Invalid login/passowrd :(";
         });

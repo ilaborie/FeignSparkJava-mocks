@@ -6,7 +6,7 @@
     .service('cellarSrv', CellarService);
 
   /** @ngInject */
-  function CellarService($http) {
+  function CellarService($log, $http) {
 
     this.getMyCellar = function () {
       //return $http.get('/cellar')
@@ -16,7 +16,9 @@
         });
     };
 
-    this.drink = function (wid, qty) {
+    this.drink = function (wid, quantity) {
+      var qty = quantity | 1;
+      $log.info('Drink', qty, 'for', wid);
       return $http.post('cellar/drink/' + wid, qty)
         .then(function (response) {
           return response.data;

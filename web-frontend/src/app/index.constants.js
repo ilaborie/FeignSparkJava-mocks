@@ -1,7 +1,7 @@
-(function() {
+(function () {
   'use strict';
 
-  angular
-    .module('webFrontend')
+  angular.module('webFrontend')
+    .constant('storage', localStorage)
 
 })();

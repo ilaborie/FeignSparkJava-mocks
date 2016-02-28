@@ -1,3 +1,8 @@
+@wineBlockWidth: 24rem;
+@wineBlockHeight: 32rem;
+@wineImgWidth: 10rem;
+@wineImgHeight: 10rem;
+
 .cellar {
   header {
     display: flex;
@@ -9,18 +14,6 @@
     }
     form {
       display: inline;
-      .input-group  {
-        max-width: 33%;
-
-        :first-child {
-          border-bottom-left-radius: 1em;
-          border-top-left-radius: 1em;
-        }
-        .input-group:last-child {
-          border-bottom-right-radius: 1em;
-          border-top-right-radius: 1em;
-        }
-      }
     }
   }
 
@@ -34,9 +27,44 @@
     .wine {
       display: inline-block;
       flex: 0 1 auto;
-      min-width: 12rem;
-      max-width: 16rem;
-      margin: 0.5rem;
+      width: @wineBlockWidth;
+      height: @wineBlockHeight;
+      margin: 0.25rem;
+      text-align: center;
+
+      .card-header {
+        text-align: left;
+        h3 {
+          font-size: 1.25rem;
+          .millesime {
+            float: right;
+          }
+        }
+        h4 {
+          font-size: 0.8rem;
+          text-overflow: ellipsis;
+          max-height: 1rem;
+        }
+      }
+      .wine-img {
+        max-width: @wineImgWidth;
+        max-height: @wineImgHeight;
+      }
+      .wine-actions {
+        float: right;
+      }
+      .card-block {
+        text-align: left;
+      }
+      .wine-kind {
+        .label {
+          font-size: 1.25rem;
+          width: 100%;
+        }
+      }
+      .wine-quantity {
+        font-size: 1.25rem;
+      }
     }
   }
 }

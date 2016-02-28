@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular
@@ -6,9 +6,12 @@
     .run(runBlock);
 
   /** @ngInject */
-  function runBlock($log) {
+  function runBlock($log, $rootScope, cartSrv) {
 
-    $log.debug('runBlock end');
+    $log.debug('Started');
+    $rootScope.shared = {
+      cart: cartSrv.getMyCart()
+    };
   }
 
 })();

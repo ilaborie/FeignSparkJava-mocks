@@ -17,10 +17,10 @@
     </ul>
 
     <ul class="nav navbar-nav pull-xs-right">
-      <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link text-success" ui-sref="cart">
+      <li class="nav-item" ui-sref-active="active" ng-if="vm.cart.length">
+        <a class="nav-link" ui-sref="cart">
           <i class="fa fa-shopping-cart"></i>
-          Cart
+          <span class="label label-pill label-default" >{{vm.cart.length}}</span>
         </a>
       </li>
       <li class="nav-item">
