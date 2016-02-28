@@ -6,9 +6,9 @@
     .service('cartSrv', CartService);
 
   /** @ngInject */
-  function CartService($log, $http, storage) {
+  function CartService($log, $http, storage, wineSrv) {
     var key = "cart";
-    var cart = JSON.parse(storage.getItem(key) || "[]");
+    var cart = angular.fromJson(storage.getItem(key) || "[]");
     var that = this;
     this.getMyCart = function () {
       return cart;
@@ -16,21 +16,37 @@
 
     this.add = function (wid, quantity) {
       var qty = quantity || 1;
-      $log.info('Add', qty, 'for', wid);
-      var current = cart.filter(function (order) {
-        return order.wid === wid;
+      $log.info('Cart, add', qty, 'for', wid);
+      var current = cart.find(function (order) {
+        return order.wine.id === wid;
       });
-      if (current.length) {
-        current[0].qty = current[0].qty + qty;
+      if (current) {
+        current.quantity += qty;
+        storage.setItem(key, angular.toJson(cart));
       } else {
-        cart.push({wid: wid, qty: qty});
+        wineSrv.findById(wid)
+          .then(function (detail) {
+            cart.push({
+              wine: detail.wine,
+              stock: detail.stock,
+              quantity: qty
+            });
+            storage.setItem(key, angular.toJson(cart));
+          });
       }
-      storage.setItem(key, JSON.stringify(cart));
+    };
+    this.remove = function(stock) {
+      $log.info('Clear cart');
+      var idx = cart.indexOf(stock);
+      if (idx >= 0) {
+        cart.splice(idx, 1);;
+      }
     };
 
     this.clear = function () {
+      $log.info('Clear cart');
       cart.splice(0, cart.length);
-      storage.setItem(key, JSON.stringify(cart));
+      storage.setItem(key, angular.toJson(cart));
     };
 
     this.order = function () {

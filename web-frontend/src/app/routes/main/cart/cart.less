@@ -1,0 +1,38 @@
+.cart {
+  .wines {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+    .wine {
+      display: flex;
+      flex-direction: row;
+      padding: 0.25rem;
+
+      .wine-img {
+        max-width: @wineImgWidth;
+        max-height: @wineImgHeight;
+      }
+      .millesime {
+        float: right;
+      }
+      .wine-qty {
+        flex: 1 1 auto;
+        text-align: right;
+        margin: 0.5rem;
+
+        .form-group {
+          display: inline-block;
+        }
+
+        .total {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .actions .total {
+      font-size: 2rem;
+    }
+  }
+}

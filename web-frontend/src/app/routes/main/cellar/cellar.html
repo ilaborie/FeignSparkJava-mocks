@@ -13,8 +13,8 @@
   </header>
 
   <div class="wines">
-
     <div class="card wine" ng-repeat="stock in vm.cellar | filter:vm.search.wine as searchResult">
+
       <div class="card-header">
         <h3>
           <i class="fa fa-heart" ng-class="{'fa-heart':stock.favorite, 'fa-heart-o':!stock.favorite}"></i>
@@ -52,8 +52,8 @@
           {{stock.wine.accordsMetsVin}}
         </p>
       </div>
-    </div>
 
+    </div>
   </div>
 
   <div class="alert alert-warning" role="alert" ng-if="!searchResult.length">

@@ -1,3 +1,54 @@
-<div class="container">
+<div class="cart">
   <h1>Cart</h1>
+
+  <div class="actions">
+    <a class="btn btn-danger-outline" ng-click="vm.clear()">
+      <i class="fa fa-trash"></i> Clear
+    </a>
+  </div>
+
+  <form class="wines" ng-show="vm.cart.length" ng-submit="vm.order()">
+    <div class="wine card" ng-repeat="stock in vm.cart as searchResult">
+
+      <div>
+        <img ng-src="http://localhost:8090/images/{{stock.wine.image}}" class="wine-img" alt="{{stock.wine.produit}}">
+      </div>
+
+      <div class="info">
+        <h3>
+          <a class="btn btn-danger-outline btn-sm" ng-click="vm.remove(stock)">
+            <i class="fa fa-trash"></i>
+          </a>
+          <span class="appellation">{{stock.wine.appellation}} -  {{stock.wine.contenance}}</span>
+          <span class="millesime">{{stock.wine.millesime}}</span>
+        </h3>
+        <h4 class="text-muted">{{stock.wine.produit}}</h4>
+        <p><i class="fa fa-cutlery"></i> {{stock.wine.accordsMetsVin}}</p>
+      </div>
+
+      <div class="wine-qty">
+        <fieldset class="form-group">
+          <input type="number" ng-model="stock.quantity" min="0" class="form-control"/>
+        </fieldset>
+        <div class="total">{{stock.quantity * stock.stock.price | currency}}</div>
+      </div>
+
+    </div>
+    <div class="actions">
+      <span class="total">{{vm.computeTotal() | currency}}</span>
+    </div>
+    <div class="actions">
+      <button type="submit" class="btn btn-primary">
+        <i class="fa fa-credit-card"></i> Order
+      </button>
+    </div>
+  </form>
+
+  <div class="alert alert-warning" role="alert" ng-hide="vm.cart.length">
+    <strong>Empty cart !</strong>
+    <a class="btn btn-secondary-outline" ui-sref="catalog">Add wine from the catalog</a>
+  </div>
+
+  <!--<pre>{{vm.cart|json}}</pre>-->
+
 </div>

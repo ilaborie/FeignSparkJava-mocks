@@ -36,7 +36,10 @@
         url: '/catalog',
         parent: 'main',
         views: {
-          'body@main': {templateUrl: 'app/routes/main/catalog/catalog.list.html'}
+          'body@main': {
+            controller: 'CatalogController as vm',
+            templateUrl: 'app/routes/main/catalog/catalog.list.html'
+          }
         }
       })
       // Wine
@@ -44,7 +47,10 @@
         url: '/wine/:wid',
         parent: 'main',
         views: {
-          'body@main': {templateUrl: 'app/routes/main/wine/wine.html'}
+          'body@main': {
+            controller: 'WineController as vm',
+            templateUrl: 'app/routes/main/wine/wine.html'
+          }
         }
       })
       // Cart
@@ -52,7 +58,10 @@
         url: '/cart',
         parent: 'main',
         views: {
-          'body@main': {templateUrl: 'app/routes/main/cart/cart.html'}
+          'body@main': {
+            controller: 'CartController as vm',
+            templateUrl: 'app/routes/main/cart/cart.html'
+          }
         }
       })
       // End
