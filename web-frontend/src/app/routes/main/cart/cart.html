@@ -21,7 +21,8 @@
           <span class="millesime">{{stock.wine.millesime}}</span>
         </h3>
         <h4 class="text-muted">{{stock.wine.produit}}</h4>
-        <p><i class="fa fa-cutlery"></i> {{stock.wine.accordsMetsVin}}</p>
+        <p ng-show="stock.wine.accordsMetsVin"><i class="fa fa-cutlery"></i> {{stock.wine.accordsMetsVin}}</p>
+        <p ng-show="stock.wine.accordsRecommandes">{{stock.wine.accordsRecommandes}}</p>
       </div>
 
       <div class="wine-qty">

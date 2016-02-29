@@ -41,13 +41,25 @@
           max-height: 1rem;
         }
       }
-      .wine-img {
-        max-width: @wineImgWidth;
-        max-height: @wineImgHeight;
+
+      .info {
+        display: flex;
+        flex-direction: row;
+        .wine-img {
+          flex: 1 1 auto;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .wine-actions {
+          text-align: right;
+          .btn {
+            margin: 0.25rem;
+          }
+        }
       }
-      .wine-actions {
-        float: right;
-      }
+
       .card-block {
         text-align: left;
         padding: 0.75rem;

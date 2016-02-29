@@ -21,6 +21,7 @@
 
   <div class="info">
     <wine-img wine="wine"></wine-img>
+
     <ul class="characteristics">
       <li ng-show="wine.cepageDominant">
         <span class="lbl">Cépage</span>
@@ -75,6 +76,9 @@
 
     </ul>
 
+    <div class="wine-region-img">
+      <img ng-src="assets/regions/{{wine.region}}.png" alt="{{wine.region}}">
+    </div>
   </div>
 
   <!--<pre>{{wine|json}}</pre>-->

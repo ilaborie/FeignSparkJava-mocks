@@ -3,8 +3,18 @@ const utils = require('./utils');
 const cleaner = require('./cleanData');
 const mocking = require('./mocking');
 
+const colors = new Set(["Vin Blanc", "Vin Rouge", "Vin Rosé", "Vin Ambré"]);
+
+// Wine
 const wines = require('./wines.json')
+  .filter(wine => colors.has(wine.couleur))
+  .filter(wine => "France" === wine.pays)
   .map(cleaner.cleanWine);
+
+// Regions
+const regions = new Set();
+wines.forEach(wine => regions.add(wine.region));
+console.log(regions);
 
 // Comments
 const comments = {};

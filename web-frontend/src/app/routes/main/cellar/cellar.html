@@ -24,13 +24,14 @@
         <h4 class="text-muted">{{stock.wine.produit}}</h4>
       </div>
 
-      <div class="card-block">
+      <div class="card-block info">
         <wine-img wine="stock.wine"></wine-img>
+
         <div class="wine-actions">
           <span class="btn btn-secondary wine-quantity btn-block">{{stock.quantity}} Btls.</span>
-          <span class="btn btn-secondary wine-price btn-block">
+
             <wine-price category="stock.wine.priceCategory"></wine-price>
-          </span>
+
           <a class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)">
             <i class="fa fa-glass"></i> Drink
           </a>

@@ -10,19 +10,29 @@
       padding: 0.25rem;
 
       .wine-img {
-        max-width: @wineImgWidth;
-        max-height: @wineImgHeight;
+        img {
+          max-width: @wineImgWidth;
+          max-height: @wineImgHeight;
+        }
       }
-      .millesime {
-        float: right;
+
+      .info {
+        flex: 1 1 auto;
+        .millesime {
+          float: right;
+        }
       }
       .wine-qty {
-        flex: 1 1 auto;
+        flex: 0 1 auto;
         text-align: right;
-        margin: 0.5rem;
+        margin-left: 1rem;
 
         .form-group {
           display: inline-block;
+          input{
+            text-align: right;
+            width: 8rem;
+          }
         }
 
         .total {
