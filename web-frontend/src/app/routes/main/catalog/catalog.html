@@ -20,6 +20,7 @@
           <span class="millesime">{{wine.millesime}}</span>
         </h3>
         <div class="text-muted">{{wine.produit}}</div>
+        <wine-price category="wine.priceCategory"></wine-price>
         <div class="actions">
           <a ui-sref="wine({wid: wine.id})" class="btn btn-secondary-outline btn-sm">Detail</a>
         </div>

@@ -1,4 +1,5 @@
 "use strict";
+const utils = require('./utils');
 
 const toInt = value => parseInt(value);
 
@@ -17,5 +18,11 @@ module.exports.cleanWine = wine => {
       result[attr] = transform[attr](result[attr]);
     }
   }
+
+  // Price
+  const cheap = utils.randomValue(0, 100) < 40;
+  const middle = !cheap && utils.randomValue(0, 100) < 70;
+  result.priceCategory = cheap ? 'LOW' : (middle ? 'MID' : 'EXP');
+
   return result;
 };

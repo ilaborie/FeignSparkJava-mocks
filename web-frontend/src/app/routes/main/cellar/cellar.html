@@ -27,10 +27,13 @@
       <div class="card-block">
         <wine-img wine="stock.wine"></wine-img>
         <div class="wine-actions">
-          <span class="btn btn-success wine-quantity btn-block">{{stock.quantity}} Btls.</span><br>
+          <span class="btn btn-secondary wine-quantity btn-block">{{stock.quantity}} Btls.</span>
+          <span class="btn btn-secondary wine-price btn-block">
+            <wine-price category="stock.wine.priceCategory"></wine-price>
+          </span>
           <a class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)">
             <i class="fa fa-glass"></i> Drink
-          </a><br>
+          </a>
           <a class="btn btn-danger-outline btn-block" ng-click="vm.buy(stock.wine.id)">
             <i class="fa fa-cart-plus"></i> Buy
           </a>
@@ -47,7 +50,7 @@
         <a ui-sref="wine({wid: stock.wine.id})" class="btn btn-block btn-secondary-outline">Detail</a>
       </div>
       <div class="card-block">
-        <p class="card-text">
+        <p class="card-text" ng-show="stock.wine.accordsMetsVin">
           <i class="fa fa-cutlery"></i>
           {{stock.wine.accordsMetsVin}}
         </p>

@@ -33,13 +33,15 @@ module.exports.createComments = () => {
   return result;
 };
 
-module.exports.createStock = () => {
-  let cheap = utils.randomValue(0, 100) < 40;
-  let middle = !cheap && utils.randomValue(0, 100) < 70;
+const categoryPrices = {
+  LOW: 50,
+  MID: 150,
+  EXP: 600
+};
+module.exports.createStock = wine => {
   return {
     stock: utils.randomValue(0, 80),
-    category: cheap ? "LOW" : (middle ? "MID" : "EXP"),
-    price: utils.randomPoisson(cheap ? 50 : (middle ? 150 : 600)) / 10
+    price: utils.randomPoisson(categoryPrices[wine.priceCategory]) / 10
   };
 };
 

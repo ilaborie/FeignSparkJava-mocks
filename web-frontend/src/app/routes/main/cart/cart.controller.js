@@ -9,25 +9,32 @@
   function CartController($rootScope, $state, cartSrv, toastr) {
     var vm = this;
     vm.cart = $rootScope.shared.cart;
-    vm.total = 0;
 
     vm.computeTotal = function () {
       return vm.cart
-        .map(function (order) {
-          return order.quantity * order.stock.price;
-        })
-        .reduce(function (sum, elt) {
-          return sum + elt;
-        }, 0);
+          .map(function (order) {
+            return order.quantity * order.stock.price;
+          })
+          .reduce(function (sum, elt) {
+            return sum + elt;
+          }, 0) + vm.computeTva();
     };
-    //var unregister = $rootScope.$watch('shared.cart', computeTotal);
-    //$rootScope.$on('$destroy', unregister);
+
+    vm.computeTva = function () {
+      return 0.2 * vm.cart
+          .map(function (order) {
+            return order.quantity * order.stock.price;
+          })
+          .reduce(function (sum, elt) {
+            return sum + elt;
+          }, 0);
+    };
 
     vm.clear = function () {
       cartSrv.clear();
       vm.total = 0;
     };
-    vm.remove = function(stock){
+    vm.remove = function (stock) {
       cartSrv.remove(stock);
     };
 

@@ -13,6 +13,7 @@ public class Wine {
     private String cepageDominant;
     private String alcool;
     private String contenance;
+    private Category priceCategory;
 
     private String image;
     private String conservation;
@@ -202,5 +203,13 @@ public class Wine {
 
     public void setAccordsMetsVin(String accordsMetsVin) {
         this.accordsMetsVin = accordsMetsVin;
+    }
+
+    public Category getPriceCategory() {
+        return priceCategory;
+    }
+
+    public void setPriceCategory(Category priceCategory) {
+        this.priceCategory = priceCategory;
     }
 }

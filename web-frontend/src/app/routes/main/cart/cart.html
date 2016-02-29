@@ -33,7 +33,10 @@
 
     </div>
     <div class="actions">
-      <span class="total">{{vm.computeTotal() | currency}}</span>
+      <span class="tva">TVA: {{vm.computeTva() | currency}}</span>
+    </div>
+    <div class="actions">
+      <span class="total">Total: {{vm.computeTotal() | currency}}</span>
     </div>
     <div class="actions">
       <button type="submit" class="btn btn-primary">
