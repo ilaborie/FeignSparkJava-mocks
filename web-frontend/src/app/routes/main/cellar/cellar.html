@@ -25,7 +25,7 @@
       </div>
 
       <div class="card-block">
-        <img ng-src="http://localhost:8090/images/{{stock.wine.image}}" class="wine-img" alt="{{stock.wine.produit}}">
+        <wine-img wine="stock.wine"></wine-img>
         <div class="wine-actions">
           <span class="btn btn-success wine-quantity btn-block">{{stock.quantity}} Btls.</span><br>
           <a class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)">

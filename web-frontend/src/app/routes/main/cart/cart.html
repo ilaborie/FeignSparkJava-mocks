@@ -10,9 +10,7 @@
   <form class="wines" ng-show="vm.cart.length" ng-submit="vm.order()">
     <div class="wine card" ng-repeat="stock in vm.cart as searchResult">
 
-      <div>
-        <img ng-src="http://localhost:8090/images/{{stock.wine.image}}" class="wine-img" alt="{{stock.wine.produit}}">
-      </div>
+      <wine-img wine="stock.wine"></wine-img>
 
       <div class="info">
         <h3>
