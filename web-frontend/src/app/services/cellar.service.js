@@ -24,5 +24,13 @@
           return response.data;
         });
     };
+
+    this.setFavorite = function (wid, favorite) {
+      $log.info('Favorite', wid, favorite);
+      return $http.post('cellar/favorite/' + wid, favorite)
+        .then(function (response) {
+          return response.data;
+        });
+    };
   }
 })();

@@ -17,7 +17,10 @@
 
       <div class="card-header">
         <h3>
-          <i class="fa fa-heart" ng-class="{'fa-heart':stock.favorite, 'fa-heart-o':!stock.favorite}"></i>
+          <button ng-click="vm.toggleFavorite(stock)" class="btn btn-secondary btn-sm">
+            <i class="fa fa-heart" ng-class="{'fa-heart':stock.favorite, 'fa-heart-o':!stock.favorite}"></i>
+          </button>
+
           <span class="appellation">{{stock.wine.appellation}}</span>
           <span class="millesime">{{stock.wine.millesime}}</span>
         </h3>

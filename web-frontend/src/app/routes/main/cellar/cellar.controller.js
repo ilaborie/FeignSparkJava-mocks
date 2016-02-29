@@ -36,8 +36,21 @@
           toastr.error(err.data, "Oops!");
         });
     };
+
     vm.buy = function (wid) {
       cartSrv.add(wid);
+    };
+
+    vm.toggleFavorite = function (stock) {
+      var favorite = !stock.favorite;
+      cellarSrv.setFavorite(stock.wine.id, favorite)
+        .then(function (result) {
+          stock.favorite = result;
+        })
+        .catch(function (err) {
+          toastr.error(err.data, "Oops!");
+        })
+
     }
   }
 })();

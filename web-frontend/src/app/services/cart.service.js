@@ -35,6 +35,7 @@
           });
       }
     };
+
     this.remove = function(stock) {
       $log.info('Clear cart');
       var idx = cart.indexOf(stock);
