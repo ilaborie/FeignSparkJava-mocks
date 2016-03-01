@@ -6,19 +6,16 @@
   <div class="container">
     <ul class="nav navbar-nav">
       <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link" ui-sref="cellar">My Cellar</a>
+        <a class="nav-link" ui-sref="cellar">Ma Cave</a>
       </li>
       <li class="nav-item" ui-sref-active="active">
-        <a class="nav-link" ui-sref="catalog">Wine Catalog</a>
+        <a class="nav-link" ui-sref="catalog">Catalogue</a>
       </li>
-      <!--<li class="nav-item" ui-sref-active="active">-->
-        <!--<a class="nav-link" ui-sref="wine({wid:123456})">wine</a>-->
-      <!--</li>-->
     </ul>
 
     <ul class="nav navbar-nav pull-xs-right">
       <li class="nav-item" ui-sref-active="active" ng-if="vm.cart.length">
-        <a class="nav-link" ui-sref="cart">
+        <a class="nav-link" ui-sref="cart" title="Mon panier">
           <i class="fa fa-shopping-cart"></i>
           <span class="label label-pill label-default" >{{vm.cart.length}}</span>
         </a>
@@ -31,7 +28,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" ng-click="vm.signOut()" title="Sign Out">
+        <a class="nav-link" ng-click="vm.signOut()" title="Quitter">
           <i class="fa fa-sign-out"></i>
         </a>
       </li>

@@ -1,11 +1,11 @@
 <div class="cellar">
 
   <header>
-    <h1>My WineCellar</h1>
+    <h1>Ma cave</h1>
     <form class="form-inline">
       <div class="form-group">
         <div class="input-group">
-          <input ng-model="vm.search.wine" type="text" class="form-control" placeholder="Search...">
+          <input ng-model="vm.search.wine" type="text" class="form-control" placeholder="Rechercher...">
           <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
         </div>
       </div>
@@ -36,10 +36,10 @@
             <wine-price category="stock.wine.priceCategory"></wine-price>
 
           <a class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)">
-            <i class="fa fa-glass"></i> Drink
+            <i class="fa fa-glass"></i> Boire
           </a>
           <a class="btn btn-danger-outline btn-block" ng-click="vm.buy(stock.wine.id)">
-            <i class="fa fa-cart-plus"></i> Buy
+            <i class="fa fa-cart-plus"></i> Acheter
           </a>
         </div>
 
@@ -51,7 +51,7 @@
           </span>
       </div>
       <div class="card-block actions">
-        <a ui-sref="wine({wid: stock.wine.id})" class="btn btn-block btn-secondary-outline">Detail</a>
+        <a ui-sref="wine({wid: stock.wine.id})" class="btn btn-block btn-secondary-outline">Détail</a>
       </div>
       <div class="card-block">
         <p class="card-text" ng-show="stock.wine.accordsMetsVin">
@@ -64,9 +64,12 @@
   </div>
 
   <div class="alert alert-warning" role="alert" ng-if="!searchResult.length">
-    <strong>Empty !</strong>
-    <div ng-hide="vm.search.wine">No wine in you cellar</div>
-    <div ng-show="vm.search.wine">No wine in you cellar matching your query</div>
+    <strong>Vide !</strong>
+    <div ng-hide="vm.search.wine">
+      Pas de vin dans votre cave
+      <a class="btn btn-secondary-outline" ui-sref="catalog">Sélectionner un vin du catalogue</a>
+    </div>
+    <div ng-show="vm.search.wine">Auncun vin de votre cave correspond à votre recherche</div>
   </div>
 
   <!--<pre>{{vm | json}}</pre>-->

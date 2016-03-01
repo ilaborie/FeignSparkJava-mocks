@@ -11,32 +11,32 @@
     <div class="form-group" ng-class="{'has-danger': loginForm.email.$invalid && loginForm.email.$dirty}">
       <span class="input-group">
         <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
-        <input ng-model="vm.user.email" name="email" type="email" class="form-control" placeholder="Enter email"
+        <input ng-model="vm.user.email" name="email" type="email" class="form-control" placeholder="Email"
                required>
       </span>
       <small class="text-danger" ng-if="loginForm.email.$error.required && loginForm.email.$dirty">
-        Required !
+        Login obligatoire !
       </small>
       <small class="text-danger" ng-if="loginForm.email.$error.email && loginForm.email.$dirty">
-        Invalid email !
+        Adresse email invalide !
       </small>
     </div>
 
     <div class="form-group" ng-class="{'has-danger': loginForm.pwd.$invalid && loginForm.pwd.$dirty}">
       <span class="input-group">
         <span class="input-group-addon"><i class="fa fa-user-secret"></i></span>
-        <input ng-model="vm.user.password" name="pwd" type="password" class="form-control" placeholder="Password"
+        <input ng-model="vm.user.password" name="pwd" type="password" class="form-control" placeholder="Mot de passe"
                required>
       </span>
       <small class="text-danger" ng-if="loginForm.pwd.$error.required && loginForm.pwd.$dirty">
-        Required !
+        Mot de passe obligatoire !
       </small>
     </div>
 
     <div class="actions">
       <button type="submit" class="btn btn-primary" ng-disabled="!loginForm.$valid">
         <i class="fa fa-sign-in"></i>
-        Login
+        Authentification
       </button>
     </div>
 

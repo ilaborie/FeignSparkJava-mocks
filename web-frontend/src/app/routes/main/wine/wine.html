@@ -4,7 +4,7 @@
   <div class="comments">
     <form ng-submit="vm.addComment()">
       <header>
-        <h2>Comments</h2>
+        <h2>Commentaires</h2>
       </header>
       <article ng-repeat="comment in vm.wine.comments" class="comment">
         <blockquote class="blockquote">
@@ -16,11 +16,11 @@
         </blockquote>
       </article>
       <hr>
-      <textarea class="form-control" ng-model="vm.comment" rows="3" placeholder="Add a comment ..."></textarea>
+      <textarea class="form-control" ng-model="vm.comment" rows="3" placeholder="Votre commentaire ..."></textarea>
       <div class="actions">
         <button type="submit" class="btn btn-primary" ng-disabled="!vm.comment">
           <i class="fa fa-comment"></i>
-          Add comment
+          Ajouter un commentaire
         </button>
       </div>
     </form>

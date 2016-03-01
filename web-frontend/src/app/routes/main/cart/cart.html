@@ -1,9 +1,9 @@
 <div class="cart">
-  <h1>Cart</h1>
+  <h1>Mon panier</h1>
 
   <div class="actions">
     <a class="btn btn-danger-outline" ng-click="vm.clear()">
-      <i class="fa fa-trash"></i> Clear
+      <i class="fa fa-trash"></i> Vider le panier
     </a>
   </div>
 
@@ -41,14 +41,14 @@
     </div>
     <div class="actions">
       <button type="submit" class="btn btn-primary">
-        <i class="fa fa-credit-card"></i> Order
+        <i class="fa fa-credit-card"></i> Commander
       </button>
     </div>
   </form>
 
   <div class="alert alert-warning" role="alert" ng-hide="vm.cart.length">
-    <strong>Empty cart !</strong>
-    <a class="btn btn-secondary-outline" ui-sref="catalog">Add wine from the catalog</a>
+    <strong>Panier vide !</strong>
+    <a class="btn btn-secondary-outline" ui-sref="catalog">Ajouter un vin du catalogue</a>
   </div>
 
   <!--<pre>{{vm.cart|json}}</pre>-->
