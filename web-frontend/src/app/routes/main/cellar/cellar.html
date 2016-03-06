@@ -13,7 +13,8 @@
   </header>
 
   <div class="wines">
-    <div class="card wine" ng-repeat="stock in vm.cellar | filter:vm.search.wine as searchResult">
+    <div class="card wine" ng-repeat="stock in vm.cellar | filter:vm.search.wine as searchResult"
+      ng-class="{'empty':stock.quantity<=0}">
 
       <div class="card-header">
         <h3>
@@ -31,14 +32,18 @@
         <wine-img wine="stock.wine"></wine-img>
 
         <div class="wine-actions">
-          <span class="btn btn-secondary wine-quantity btn-block">{{stock.quantity}} Btls.</span>
+          <span class="btn wine-quantity btn-block"
+                ng-class="{'btn-secondary':stock.quantity>0, 'btn-danger-outline':stock.quantity<=0}">
+            {{stock.quantity}} Btls.
+          </span>
 
-            <wine-price category="stock.wine.priceCategory"></wine-price>
-
-          <a class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)">
+          <wine-price category="stock.wine.priceCategory"></wine-price>
+          <button class="btn btn-primary-outline btn-block" ng-click="vm.drink(stock.wine.id)"
+                  ng-show="stock.quantity>0">
             <i class="fa fa-glass"></i> Boire
-          </a>
-          <a class="btn btn-danger-outline btn-block" ng-click="vm.buy(stock.wine.id)">
+          </button>
+          <a class="btn btn-block" ng-click="vm.buy(stock.wine.id)"
+             ng-class="{'btn-danger-outline':stock.quantity>0, 'btn-danger':stock.quantity<=0}">
             <i class="fa fa-cart-plus"></i> Acheter
           </a>
         </div>

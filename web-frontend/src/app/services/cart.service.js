@@ -36,7 +36,7 @@
       }
     };
 
-    this.remove = function(stock) {
+    this.remove = function (stock) {
       $log.info('Clear cart');
       var idx = cart.indexOf(stock);
       if (idx >= 0) {
@@ -51,8 +51,12 @@
     };
 
     this.order = function () {
-      $log.info('Order', cart);
-      return $http.post('cart/order', cart)
+      var body = cart.map(function (elt) {
+        return {wid: elt.wine.id, quantity: elt.quantity};
+      });
+      var order = {entries: body};
+      $log.info('Order', order);
+      return $http.post('api/cart/order', order)
         .then(function () {
           that.clear();
           return cart;

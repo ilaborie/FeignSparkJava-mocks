@@ -30,10 +30,10 @@
       cellarSrv.drink(wid)
         .then(function (quantity) {
           var stock = findById(wid);
-          stock.qty = quantity;
+          stock.quantity = quantity;
         })
         .catch(function (err) {
-          toastr.error(err.data, "Oops!");
+          toastr.error(err.data, 'Oops!');
         });
     };
 
@@ -45,10 +45,10 @@
       var favorite = !stock.favorite;
       cellarSrv.setFavorite(stock.wine.id, favorite)
         .then(function (result) {
-          stock.favorite = result;
+          stock.favorite = 'true' === result;
         })
         .catch(function (err) {
-          toastr.error(err.data, "Oops!");
+          toastr.error(err.data, 'Oops!');
         })
 
     }

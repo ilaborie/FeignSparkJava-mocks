@@ -1,3 +1,5 @@
+@wineEmptyOpacity: 0.5;
+
 .cellar {
   header {
     display: flex;
@@ -72,6 +74,12 @@
       }
       .wine-quantity {
         font-size: 1.25rem;
+      }
+
+      &.empty {
+        .card-header, .wine-kind, .info .wine-img, .card-block .card-text {
+          opacity: @wineEmptyOpacity;
+        }
       }
     }
   }

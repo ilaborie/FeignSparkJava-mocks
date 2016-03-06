@@ -1,7 +1,7 @@
-(function() {
+(function () {
   'use strict';
 
   angular
-    .module('webFrontend', ['ngSanitize', 'ngMessages', 'ui.router', 'toastr']);
+    .module('webFrontend', ['ngSanitize', 'ngMessages', 'ui.router', 'toastr', 'satellizer']);
 
 })();

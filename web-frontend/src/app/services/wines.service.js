@@ -10,8 +10,7 @@
 
     this.findById = function (wid) {
       $log.info('Find', wid);
-      //return $http.get('wine/' + wid, user) // FIXME
-      return $http.get('assets/mock/detail.json') // FIXME
+      return $http.get('api/wine/' + wid)
         .then(function (response) {
           return response.data;
         });
@@ -19,16 +18,15 @@
 
     this.search = function (query) {
       $log.info('Search', query);
-      //return $http.get('wine/?q=' +query) // FIXME
-      return $http.get('assets/mock/search.json') // FIXME
+      return $http.get('api/wine' + (query ? '?q=' + query : ''))
         .then(function (response) {
           return response.data;
         });
     };
 
-    this.addComment = function(message) {
+    this.addComment = function (wid, message) {
       $log.info('Add comment', message);
-      return $http.post('comment', message)  // FIXME
+      return $http.post('api/wine/' + wid + '/comment', message)
         .then(function (response) {
           return response.data;
         });

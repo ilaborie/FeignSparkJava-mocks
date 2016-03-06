@@ -6,27 +6,20 @@
     .service('loginSrv', LoginService);
 
   /** @ngInject */
-  function LoginService($http, $state, storage) {
+  function LoginService($state, $auth) {
 
     this.login = function (user) {
-      //return $http.post('login', user) // FIXME
-      return $http.get('assets/mock/login.json', user) // FIXME
-        .then(function (response) {
-          var result = {
-            email: user.email,
-            token: response.data
-          };
-          storage.setItem("user", angular.toJson(result));
-          return result;
-        });
+      return $auth.login(user);
+      // FIXME implements backend
+      // api/auth/login should send { token: createJWT(user) }
     };
 
     this.getUser = function () {
-      return angular.fromJson(storage.getItem("user"));
+      return $auth.getPayload();
     };
 
     this.logout = function () {
-      storage.removeItem("user");
+      $auth.logout();
       $state.go('login');
     };
   }

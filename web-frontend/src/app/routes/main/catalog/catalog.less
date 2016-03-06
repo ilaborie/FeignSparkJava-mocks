@@ -27,15 +27,17 @@
         border-radius: 0.25rem;
         background: @bgWhite;
         list-style: none;
+        cursor: pointer;
+        opacity: 0.8;
 
         &.active {
-          border: thin solid @bgGray;
+          opacity: 1;
+          border: 0.125rem solid @bgGray;
           box-shadow: 0.125rem 0.125rem 0.5rem fade(@bgGray, 50%);
         }
 
         h3 {
           font-size: 1.25rem;
-          cursor: pointer;
           .millesime {
             float: right;
           }

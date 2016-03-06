@@ -41,11 +41,12 @@
     vm.order = function () {
       cartSrv.order()
         .then(function () {
-          toastr.info('Order complete !');
+          toastr.info('Commande réussite!');
           $state.go('cellar');
         })
         .catch(function (error) {
-          toastr.error('Oops !', error.data);
+          //toastr.error('Oops !', error.data);
+          toastr.error(error.data);
         });
     }
   }

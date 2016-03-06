@@ -41,7 +41,8 @@ public class CommentRoute {
     }
 
     private Comment parseComment(byte[] bytes) {
-        try (ByteArrayInputStream input = new ByteArrayInputStream(bytes); Reader reader = new InputStreamReader(input)) {
+        try (ByteArrayInputStream input = new ByteArrayInputStream(bytes);
+             Reader reader = new InputStreamReader(input)) {
             return GSON.fromJson(reader, Comment.class);
         } catch (IOException e) {
             throw new IllegalArgumentException("Not a comment");

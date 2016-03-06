@@ -9,8 +9,7 @@
   function CellarService($log, $http) {
 
     this.getMyCellar = function () {
-      //return $http.get('/cellar')
-      return $http.get('assets/mock/cellar.json')
+      return $http.get('api/cellar')
         .then(function (response) {
           return response.data;
         });
@@ -19,15 +18,15 @@
     this.drink = function (wid, quantity) {
       var qty = quantity | 1;
       $log.info('Drink', qty, 'for', wid);
-      return $http.post('cellar/drink/' + wid, qty)
+      return $http.post('api/cellar/drink/' + wid, qty)
         .then(function (response) {
-          return response.data;
+          return parseInt(response.data);
         });
     };
 
     this.setFavorite = function (wid, favorite) {
       $log.info('Favorite', wid, favorite);
-      return $http.post('cellar/favorite/' + wid, favorite)
+      return $http.post('api/cellar/favorite/' + wid, favorite)
         .then(function (response) {
           return response.data;
         });

@@ -22,7 +22,7 @@
       });
 
     vm.addComment = function () {
-      wineSrv.addComment(vm.comment)
+      wineSrv.addComment(vm.wid, vm.comment)
         .then(function (comment) {
           vm.comment = null;
           vm.wine.comments.push(comment);

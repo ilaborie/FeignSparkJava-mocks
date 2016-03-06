@@ -14,8 +14,9 @@
 
   <section class="search-matches">
     <ul class="search-result">
-      <li ng-repeat="wine in vm.wines" class="active" ng-class="{'active': wine.id === vm.wine.id}">
-        <h3 ng-click="vm.select(wine.id)">
+      <li ng-repeat="wine in vm.wines" ng-class="{'active': wine.id === vm.wine.wine.id}"
+          ng-click="vm.select(wine.id)">
+        <h3>
           <span class="appellation">{{wine.appellation}}</span>
           <span class="millesime">{{wine.millesime}}</span>
         </h3>
