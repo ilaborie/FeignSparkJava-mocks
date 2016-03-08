@@ -6,12 +6,14 @@
     .directive('wineImg', wineImg);
 
   /** @ngInject */
-  function wineImg() {
+  function wineImg(config) {
     return {
       restrict: 'E',
       templateUrl: 'app/directives/wineImg/wine.image.html',
       scope: {
         wine: '='
+      }, link: function (scope) {
+        scope.url = config.imgUrl;
       }
     };
   }

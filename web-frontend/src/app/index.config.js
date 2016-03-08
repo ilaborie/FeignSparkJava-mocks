@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular
@@ -6,7 +6,7 @@
     .config(config);
 
   /** @ngInject */
-  function config($logProvider, toastrConfig, $authProvider) {
+  function config(config, $logProvider, toastrConfig, $authProvider) {
     // Enable log
     $logProvider.debugEnabled(true);
 
@@ -18,7 +18,7 @@
     toastrConfig.progressBar = true;
 
     // Auth
-    $authProvider.loginUrl = 'api/auth/login';
+    $authProvider.loginUrl = config.loginUrl + 'api/auth/login';
   }
 
 })();
