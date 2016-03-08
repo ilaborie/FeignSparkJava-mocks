@@ -21,6 +21,7 @@
         <module>reference_service</module>
         <module>comments_service</module>
         <module>stocks_service</module>
+        <module>authentication_service</module>
     </modules>
 
     <build>
