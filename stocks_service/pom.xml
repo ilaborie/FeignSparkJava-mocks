@@ -12,6 +12,12 @@
     <groupId>devoxx.microframeworks.services</groupId>
     <artifactId>stocks-service</artifactId>
 
+    <properties>
+        <heroku.maven.plugin.version>1.0.0</heroku.maven.plugin.version>
+        <main>devoxx.microframeworks.services.Main</main>
+        <heroku.app>dvxx-sparkfeign-stock</heroku.app>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
@@ -25,5 +31,47 @@
             <version>2.6.1</version>
         </dependency>
     </dependencies>
-    
+
+    <build>
+        <plugins>
+            <!-- single jar packaging -->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <descriptorRefs>
+                        <!-- This tells Maven to include all dependencies -->
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>${main}</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <!-- deploy on Heroku -->
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>${heroku.maven.plugin.version}</version>
+                <configuration>
+                    <jdkVersion>${maven.compiler.target}</jdkVersion>
+                    <appName>${heroku.app}</appName>
+                    <processTypes>
+                        <web>java -jar target/${build.finalName}-jar-with-dependencies.jar</web>
+                    </processTypes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>

@@ -1,13 +1,14 @@
 package devoxx.microframeworks.services;
 
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 import static spark.Spark.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        port(8092);
+        port(getPort());
 
         StockRoute stockRoute = new StockRoute();
         get("/api/wines/qty", stockRoute::handleFindAll);
@@ -18,5 +19,12 @@ public class Main {
         exception(NoSuchElementException.class, errorRoute::handleNotFound);
         exception(IllegalArgumentException.class, errorRoute::handleBadRequest);
         exception(NumberFormatException.class, errorRoute::handleBadRequest);
+    }
+
+    private static int getPort() {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        return Optional.ofNullable(processBuilder.environment().get("PORT"))
+                .map(Integer::parseInt)
+                .orElse(8092);
     }
 }

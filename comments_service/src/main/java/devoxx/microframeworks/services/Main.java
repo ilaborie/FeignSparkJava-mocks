@@ -1,13 +1,14 @@
 package devoxx.microframeworks.services;
 
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 import static spark.Spark.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        port(8091);
+        port(getPort());
 
         CommentRoute commentRoute = new CommentRoute();
         get("/api/wines/:wid/comments", commentRoute::handleFindAll);
@@ -17,5 +18,12 @@ public class Main {
         ErrorRoute errorRoute = new ErrorRoute();
         exception(NoSuchElementException.class, errorRoute::handleNotFound);
         exception(IllegalArgumentException.class, errorRoute::handleBadRequest);
+    }
+
+    private static int getPort() {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        return Optional.ofNullable(processBuilder.environment().get("PORT"))
+                .map(Integer::parseInt)
+                .orElse(8091);
     }
 }
