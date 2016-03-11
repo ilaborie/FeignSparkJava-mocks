@@ -1,0 +1,20 @@
+ref:
+  image: ilaborie/sparkfeign-ref
+  ports:
+    - 8090:8090
+comment:
+  image: ilaborie/sparkfeign-comment
+  ports:
+    - 8091:8091
+stock:
+  image: ilaborie/sparkfeign-stock
+  ports:
+    - 8092:8092
+auth:
+  image: ilaborie/sparkfeign-auth
+  ports:
+    - 8093:8093
+soluce:
+  image: ilaborie/sparkfeign-soluce
+  ports:
+    - 8080:8080

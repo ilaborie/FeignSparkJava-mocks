@@ -17,6 +17,8 @@
         <heroku.maven.plugin.version>1.0.0</heroku.maven.plugin.version>
         <main>devoxx.microframeworks.services.Main</main>
         <heroku.app>dvxx-sparkfeign-auth</heroku.app>
+        <docker.maven.version>0.4.3</docker.maven.version>
+        <docker.image>ilaborie/sparkfeign-auth</docker.image>
     </properties>
 
     <dependencies>
@@ -74,8 +76,24 @@
                     <jdkVersion>${maven.compiler.target}</jdkVersion>
                     <appName>${heroku.app}</appName>
                     <processTypes>
-                        <web>java -jar target/${build.finalName}-jar-with-dependencies.jar</web>
+                        <web>java -jar target/${project.build.finalName}-jar-with-dependencies.jar</web>
                     </processTypes>
+                </configuration>
+            </plugin>
+            <!-- Create Docker image -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>${docker.maven.version}</version>
+                <configuration>
+                    <imageName>${docker.image}</imageName>
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                        <imageTag>latest</imageTag>
+                    </imageTags>
+                    <forceTags>true</forceTags>
+                    <dockerDirectory>.</dockerDirectory>
+                    <serverId>docker-hub</serverId>
                 </configuration>
             </plugin>
         </plugins>
