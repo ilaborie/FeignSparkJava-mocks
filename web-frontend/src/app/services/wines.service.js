@@ -26,7 +26,7 @@
 
     this.addComment = function (wid, message) {
       $log.info('Add comment', message);
-      return $http.post('api/wine/' + wid + '/comment', message)
+      return $http.post('api/wine/' + wid + '/comments', message)
         .then(function (response) {
           return response.data;
         });
