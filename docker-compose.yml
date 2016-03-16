@@ -1,20 +1,32 @@
-ref:
-  image: ilaborie/sparkfeign-ref
-  ports:
-    - 8090:8090
-comment:
-  image: ilaborie/sparkfeign-comment
-  ports:
-    - 8091:8091
-stock:
-  image: ilaborie/sparkfeign-stock
-  ports:
-    - 8092:8092
-auth:
-  image: ilaborie/sparkfeign-auth
-  ports:
-    - 8093:8093
-soluce:
-  image: ilaborie/sparkfeign-soluce
-  ports:
-    - 8080:8080
+version: '2'
+services:
+
+  ref:
+    image: sparkfeign-ref
+    container_name: sparkfeign-reference
+    depends_on:
+        - auth
+    ports:
+      - 8090:8090
+
+  comment:
+    image: sparkfeign-comment
+    container_name: sparkfeign-comments
+    depends_on:
+        - ref
+    ports:
+      - 8091:8091
+
+  stock:
+    image: sparkfeign-stock
+    container_name: sparkfeign-stocks
+    depends_on:
+        - ref
+    ports:
+      - 8092:8092
+
+  auth:
+    image: sparkfeign-auth
+    container_name: sparkfeign-auth
+    ports:
+      - 8093:8093

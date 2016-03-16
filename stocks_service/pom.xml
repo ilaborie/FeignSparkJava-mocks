@@ -17,7 +17,7 @@
         <main>devoxx.microframeworks.services.Main</main>
         <heroku.app>dvxx-sparkfeign-stock</heroku.app>
         <docker.maven.version>0.4.3</docker.maven.version>
-        <docker.image>ilaborie/sparkfeign-stock</docker.image>
+        <docker.image>sparkfeign-stock</docker.image>
     </properties>
 
     <dependencies>

@@ -17,7 +17,7 @@
         <main>devoxx.microframeworks.services.Main</main>
         <heroku.app>dvxx-sparkfeign-comment</heroku.app>
         <docker.maven.version>0.4.3</docker.maven.version>
-        <docker.image>ilaborie/sparkfeign-comment</docker.image>
+        <docker.image>sparkfeign-comment</docker.image>
     </properties>
 
     <dependencies>

@@ -11,14 +11,14 @@
     </parent>
 
     <groupId>devoxx.microframeworks.services</groupId>
-    <artifactId>authentication_service</artifactId>
+    <artifactId>authentication-service</artifactId>
 
     <properties>
         <heroku.maven.plugin.version>1.0.0</heroku.maven.plugin.version>
         <main>devoxx.microframeworks.services.Main</main>
         <heroku.app>dvxx-sparkfeign-auth</heroku.app>
         <docker.maven.version>0.4.3</docker.maven.version>
-        <docker.image>ilaborie/sparkfeign-auth</docker.image>
+        <docker.image>sparkfeign-auth</docker.image>
     </properties>
 
     <dependencies>
