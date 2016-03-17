@@ -7,9 +7,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.lang.reflect.Field;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -22,7 +24,8 @@ public enum WineDao {
     private static Map<String, Wine> allWinesById = new HashMap<>();
 
     static {
-        try (Reader reader = new InputStreamReader(WineDao.class.getResourceAsStream("/wines.json"))) {
+        try (InputStream stream = WineDao.class.getResourceAsStream("/wines.json");
+             Reader reader = new InputStreamReader(stream, StandardCharsets.UTF_8)) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
             List<Wine> allWines = GSON.fromJson(reader, new TypeToken<List<Wine>>() {

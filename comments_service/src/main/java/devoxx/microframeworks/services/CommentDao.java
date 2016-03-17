@@ -7,8 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public enum CommentDao {
@@ -19,7 +21,8 @@ public enum CommentDao {
     private static Map<String, List<Comment>> allComments;
 
     static {
-        try (Reader reader = new InputStreamReader(CommentDao.class.getResourceAsStream("/comments.json"))) {
+        InputStream stream = CommentDao.class.getResourceAsStream("/comments.json");
+        try (Reader reader = new InputStreamReader(stream, StandardCharsets.UTF_8)) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
             allComments = GSON.fromJson(reader, new TypeToken<Map<String, List<Comment>>>() {

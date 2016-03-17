@@ -7,8 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -21,7 +23,8 @@ public enum StockDao {
     private static Map<String, Stock> allStocks;
 
     static {
-        try (Reader reader = new InputStreamReader(StockDao.class.getResourceAsStream("/stocks.json"))) {
+        InputStream stream = StockDao.class.getResourceAsStream("/stocks.json");
+        try (Reader reader = new InputStreamReader(stream, StandardCharsets.UTF_8)) {
             Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
             allStocks = GSON.fromJson(reader, new TypeToken<Map<String, Stock>>() {
