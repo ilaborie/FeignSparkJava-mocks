@@ -17,7 +17,9 @@
       wineSrv.search(vm.query)
         .then(function (wines) {
           vm.wines = wines;
-          vm.select(wines[0].id);
+          if (wines[0]) {
+            vm.select(wines[0].id);
+          }
         })
         .catch(function (error) {
           toastr.error('Oops !', error.data);

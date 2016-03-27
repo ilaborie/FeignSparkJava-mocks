@@ -76,8 +76,8 @@
 
     </ul>
 
-    <div class="wine-region-img">
-      <img ng-src="assets/regions/{{wine.region}}.png" alt="{{wine.region}}">
+    <div class="wine-region-img" ng-if="wine.region">
+      <img ng-src="assets/regions/{{wine.region | imgName}}.png" alt="{{wine.region}}">
     </div>
   </div>
 
